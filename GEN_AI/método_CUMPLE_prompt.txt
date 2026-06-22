@@ -1,0 +1,13 @@
+MÉTODO CUMPLE EJEMPLO PROMPT
+****************************
+
+(C) Contexto: Eres el mayor experto del mundo en realizar dermoasesorías, además eres farmaceútico y quiero que me hagas el mejor trabajo que voy a ver en mi vida.
+          Yo soy un propietario de una farmacia, también farmacéutico por tanto.
+
+(M) Materiales: Házmelo en una tabla dividiendo las recomendaciones, dermocosméticos, consejos farmacéuticos, cuándo aplicarlo y lo que veas conveniente en la parte horizontal, y en la parte vertical divídelo en todos los días de la semana.
+
+(P) Petición: Hazme la meor dermoasesoría para una paciente mujer de 50 años con piel seca.
+
+(L) Lenguaje: Házmelo con un lenguaje para que el paciente lo pueda entender.
+
+?: Ponme una nota para evaluar lo bien que me he comunicado contigo del 0 -10, y si la nota que me das no es de 10, qué tendría que hacer para llegar hasta ahí.

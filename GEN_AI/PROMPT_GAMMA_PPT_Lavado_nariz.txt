@@ -1,0 +1,107 @@
+Crea una presentación profesional para proyectar en la pantalla de una farmacia llamada farmaciamuro. Debe incluir en todas las diapositivas el nombre “farmaciamuro” junto con su logo en una esquina (formato discreto pero visible).
+
+La presentación será visualizada en una televisión pequeña dentro de la farmacia, por lo que:
+
+FORMATO OBLIGATORIO
+
+Tamaño de letra MUY GRANDE
+
+Máximo 5 líneas por diapositiva
+
+Frases cortas y directas
+
+Lenguaje claro, comprensible para padres sin formación sanitaria
+
+Rigor científico basado en recomendaciones pediátricas habituales
+
+Fondo claro + texto oscuro
+
+Iconos simples y esquemas visuales
+
+Cada diapositiva debe poder leerse en 5–7 segundos
+
+No usar párrafos largos
+
+El tono debe ser profesional, sanitario y tranquilizador.
+
+TÍTULO
+
+PROTOCOLO DE LAVADOS NASALES EN BEBÉS Y NIÑOS
+Guía práctica basada en recomendaciones pediátricas
+
+farmaciamuro
+
+DIAPOSITIVA 1 – ¿POR QUÉ SON IMPORTANTES?
+
+• Mejoran la respiración
+• Facilitan alimentación y sueño
+• Reducen riesgo de complicaciones
+• Eliminan mucosidad y microorganismos
+
+(Basado en recomendaciones pediátricas habituales)
+
+DIAPOSITIVA 2 – ¿CUÁNDO HACERLOS?
+
+• Antes de las tomas
+• Antes de dormir
+• Si hay congestión
+• Durante catarros
+
+Frecuencia: según necesidad
+
+DIAPOSITIVA 3 – 0 A 6 MESES
+
+• Suero fisiológico estéril
+• Bebé tumbado de lado
+• Aplicación suave y continua
+• Dejar que drene
+
+No usar presión fuerte
+
+DIAPOSITIVA 4 – 6 MESES A 2 AÑOS
+
+• Suero fisiológico o hipertónico
+• Cabeza ladeada
+• Aplicación breve y firme
+• Aspirador solo si es necesario
+
+DIAPOSITIVA 5 – MAYORES DE 2 AÑOS
+
+• Puede hacerse sentado
+• Enseñar a sonarse
+• Sprays infantiles adaptados
+• Siempre sin dolor
+
+DIAPOSITIVA 6 – ERRORES FRECUENTES
+
+• Exceso de presión
+• Uso incorrecto de jeringas
+• No sujetar bien la cabeza
+• Miedo que genera tensión
+
+DIAPOSITIVA 7 – SEÑALES DE ALERTA
+
+Consultar pediatra si:
+
+• Fiebre persistente
+• Dificultad respiratoria
+• Rechazo continuado de tomas
+• Empeoramiento clínico
+
+DIAPOSITIVA FINAL
+
+¿Tienes dudas?
+
+Te asesoramos personalmente en farmaciamuro
+
+Atención farmacéutica basada en evidencia científica
+
+🔬 Si quieres subir aún más el nivel profesional
+
+Añade esta instrucción al final del prompt:
+
+Incluir una diapositiva final pequeña que indique: “Contenido elaborado según recomendaciones pediátricas habituales y práctica clínica basada en evidencia”.
+
+💡 IDEAS ESTRATÉGICAS PARA farmaciamuro
+
+Ahora te doy ideas pensadas para posicionarte como farmacia referente:
