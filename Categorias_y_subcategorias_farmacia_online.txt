@@ -1,4 +1,4 @@
-Dermocosmética Y Cuidado De Piel
+- Dermocosmética Y Cuidado De Piel
   Cremas Antiedad
   Acné
   Manchas Piel
@@ -7,7 +7,7 @@ Dermocosmética Y Cuidado De Piel
   Rosácea
   Protección Solar
   Contorno Ojos
-Caída Del Cabello Y Salud Capilar
+- Caída Del Cabello Y Salud Capilar
   Caída Cabello
   Champús Anticaída
   Caspa
@@ -15,7 +15,7 @@ Caída Del Cabello Y Salud Capilar
   Cuero Cabelludo
   Estimulantes Capilares
   Nutrición Capilar
-Complementos Alimenticios Y Vitaminas
+- Complementos Alimenticios Y Vitaminas
   Vitamina D
   Vitamina C
   Magnesio
@@ -26,7 +26,7 @@ Complementos Alimenticios Y Vitaminas
   Defensas
   Energía
   Melatonina
-Bebés Y Mamás
+- Bebés Y Mamás
   Leche Infantil
   Cremas Bebé
   Embarazo
@@ -35,22 +35,22 @@ Bebés Y Mamás
   Postparto
   Higiene Bebé
   Termómetros Bebé
-Salud Digestiva
+- Salud Digestiva
   Estreñimiento
   Diarrea
-  Gases E Hinchazón
+  Hinchazón y Gases
   Acidez Estomacal
   Reflujo
   Probióticos Flora
   Colon Irritable
   Náuseas
-Descanso Y Sueño
+- Descanso Y Sueño
   Melatonina
   Insomnio
   Productos Naturales Sueño
   Máscaras Antiruido
   Complementos Relajantes
-Dolor Muscular Y Articular
+- Dolor Muscular Y Articular
   Antiinflamatorios
   Cremas Musculares
   Articulaciones
@@ -58,80 +58,80 @@ Dolor Muscular Y Articular
   Dolor Rodilla
   Contracturas
   Glucosamina Condroitina
-Sistema Inmune Y Defensas
+- Sistema Inmune Y Defensas
   Reforzar Defensas
   Vitamina C Defensas
   Zinc Defensas
   Echinacea
   Niños Defensas
   Resfriado Gripe
-Piernas Cansadas Y Circulación
+- Piernas Cansadas Y Circulación
   Cremas Piernas
   Varices
   Medias Compresión
   Edema Piernas
   Complementos Circulación
-Salud Bucal
+- Salud Bucal
   Dientes Sensibles
   Blanqueamiento Dental
   Encías
   Mal Aliento
   Colutorio
-Control De Peso
+- Control De Peso
   Quemagrasas
   Saciantes
   Batidos Proteicos
   Complementos Metabolismo
   Índices Imc
-Salud Íntima
+- Salud Íntima
   Gel Higiene Íntima
   Candidiasis
   Sequedad Vaginal
   Menstruación
   Probióticos Íntimos
   Menopausia
-Cuidado Ocular
+- Cuidado Ocular
   Ojos Secos
   Picor Ojos
   Lentillas
   Conjuntivitis
-Deporte Y Rendimiento
+- Deporte Y Rendimiento
   Proteínas
   Recuperación Muscular
   Magnesio Deporte
   Vendajes Deportivos
   Creatina
-Medicamentos Otc
+- Medicamentos Otc
   Analgésicos
   Antitérmicos
   Antihistamínicos
   Antigripales
   Antidiarreicos
   Antiácidos
-Higiene Y Cuidado Personal
+- Higiene Y Cuidado Personal
   Gel De Ducha
   Desodorantes
   Higiene Femenina
   Higiene Masculina
   Higiene Pies
-Botiquín Y Primeros Auxilios
+- Botiquín Y Primeros Auxilios
   Qué Llevar En El Botiquín
   Curas Y Vendajes
   Antisépticos
   Botiquín Viaje
   Termómetros
-Nutricosmética
+- Nutricosmética
   Belleza Desde Dentro
   Antiedad Oral
   Cabello Uñas
   Bronceado Oral
-Productos Naturales
+- Productos Naturales
   Plantas Medicinales
   Infusiones Medicinales
   Aceites Esenciales
   Homeopatía
   Fitoterapia
-Ortopedia Y Movilidad
+- Ortopedia Y Movilidad
   Rodilleras
   Muñequeras
   Plantillas
