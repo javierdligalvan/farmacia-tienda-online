@@ -68,7 +68,7 @@
 
 ### ▶ 2. DESCRIPCIÓN CORTA *(campo bajo el precio en la ficha de tienda)*
 
-FisioVen Plus 50 Cápsulas de Aboca — complemento alimenticio para complemento alimenticio para favorecer la microcirculación de las piernas: sensación de piernas p.... Presentación: 50 cápsulas de 500 mg / dosis diaria: 2 cápsulas (1 cápsula dos veces al día). Sin receta. Envío a toda la Península en 24-72h.
+FisioVen Plus 50 Cápsulas de Aboca es un complemento alimenticio para complemento alimenticio para favorecer la microcirculación de las piernas: sensación de piernas de piernas pesadas, cansadas o con ligera hinchazón. Presentación: 50 cápsulas de 500 mg / dosis diaria: 2 cápsulas (1 cápsula dos veces al día). Sin receta. Envío a toda la Península en 24-72h.
 
 ---
 
