@@ -1,30 +1,30 @@
-﻿SKU;NOMBRE_PRODUCTO,PVP
-"203716";ALIVIOLAS FISIOLAX 27 COMPRIMIDOS;10,95
-"203717";ALIVIOLAS FISIOLAX 45 COMPRIMIDOS;12,95
-"204703";ALIVIOLAS FISIOLAX 90 COMPRIMIDOS;19,95
-"221562";CARBON VEGETAL;13,95
-"182752";COLIGAS FAST;18,95
-"348561";FINOCARBO PLUS 50 CÁPSULAS;19,95
-"348560";FINOCARBO PLUS TISANA;10,95
-"195023";FITONASAL PEDIATRIC;15,95
-"197803";FITONASAL SPRAY CONCENTRADO;12,95
-"169295";FITOSTILL;13,50
-"186393";GOLAMIR COMPRIMIDOS;10,95
-"180466";GRINTUSS ADULT JARABE;14,95
-"180465";GRINTUSS PEDIATRIC JARABE;14,95
-"187986";LENODIAR ADULT 20 CÁPSULAS;14,95
-"186620";LENODIAR PEDIATRIC SOBRES;15,95
-"179461";LYNFASE ADELGACCIÓN TISANA;10,95
-"169285";MELILAX PEDIATRIC MICROENEMAS;10,95
-"215873";NEOBIANACID 14 COMPRIMIDOS;9,95
-"215874";NEOBIANACID 45 COMPRIMIDOS;18,95
-"219594";NEOBIANACID 70 COMPRIMIDOS;23,95
-"172609";NEOBIANACID LIMÓN 14 COMPRIMIDOS;9,95
-"220898";NEOBIANACID LIMÓN 20 SOBRES;13,95
-"172610";NEOBIANACID LIMÓN 45 COMPRIMIDOS;18,95
-"208484";NEOBIANACID LIMÓN 70 COMPRIMIDOS;23,95
-"177778";NEOFITOROID BIOPOMADA;13,95
-"182504";NEOFITOROID CÁPSULAS;20,95
-"197609";OROBEN COLUTORIO ORAL;13,95
-"153978";FISIOVEN BIOGEL 100ML;17,95
-"156647";FISIOVEN PLUS 50 CAPS;22,95
+﻿SKU;NOMBRE_PRODUCTO;PVP;PRECIO_COMPRA;UNIDADES;MARGEN;SLUG
+203716;ALIVIOLAS FISIOLAX 27 COMPRIMIDOS;10,95;6,04;;;salud-digestiva/estrenimiento/aliviolas-fisiolax-27-comprimidos
+203717;ALIVIOLAS FISIOLAX 45 COMPRIMIDOS;12,95;7,09;;;salud-digestiva/estrenimiento/aliviolas-fisiolax-45-comprimidos
+204703;ALIVIOLAS FISIOLAX 90 COMPRIMIDOS;19,95;10,76;;;salud-digestiva/estrenimiento/aliviolas-fisiolax-90-comprimidos
+221562;CARBON VEGETAL;13,95;;;;salud-digestiva/hinchazon-y-gases/carbon-vegetal-90-comprimidos
+182752;COLIGAS FAST 50 CÁPSULAS;18,95;;;;salud-digestiva/hinchazon-y-gases/coligas-fast-50-capsulas
+348561;FINOCARBO PLUS 50 CÁPSULAS;19,95;;;;salud-digestiva/hinchazon-y-gases/finocarbo-plus-50-capsulas
+348560;FINOCARBO PLUS TISANA;10,95;;;;salud-digestiva/hinchazon-y-gases/finocarbo-plus-tisana-20-bolsitas
+195023;FITONASAL PEDIATRIC;15,95;;;;sistema-inmune/gripe-resfriado/fitonasal-pediatric-spray-125-ml
+197803;FITONASAL SPRAY CONCENTRADO;12,95;;;;sistema-inmune/gripe-resfriado/fitonasal-spray-concentrado-30-ml
+169295;FITOSTILL;13,50;;;;cuidado-ocular/ojos-secos/fitostill-plus-ampollas
+186393;GOLAMIR COMPRIMIDOS;10,95;;;;sistema-inmune/gripe-resfriado/golamir-2act-comprimidos
+180466;GRINTUSS ADULT JARABE;14,95;;;;sistema-inmune/gripe-resfriado/grintuss-adult-jarabe
+180465;GRINTUSS PEDIATRIC JARABE;14,95;;;;sistema-inmune/gripe-resfriado/grintuss-pediatric-jarabe
+187986;LENODIAR ADULT 20 CÁPSULAS;14,95;;;;salud-digestiva/diarrea/lenodiar-adult-capsulas
+186620;LENODIAR PEDIATRIC SOBRES;15,95;;;;bebes-mamas/higiene-bebe/lenodiar-pediatric-sobres
+179461;LYNFASE ADELGACCIÓN TISANA;10,95;;;;control-peso/lynfase-tisana-drenante
+169285;MELILAX PEDIATRIC MICROENEMAS;10,95;6,95;;;bebes-mamas/colicos-bebe/melilax-pediatric-microenemas
+215873;NEOBIANACID 14 COMPRIMIDOS;9,95;6,37;;;salud-digestiva/acidez-reflujo/neobianacid-14
+215874;NEOBIANACID 45 COMPRIMIDOS;18,95;11,63;;;salud-digestiva/acidez-reflujo/neobianacid-45
+219594;NEOBIANACID 70 COMPRIMIDOS;23,95;14,56;;;salud-digestiva/acidez-reflujo/neobianacid-70
+172609;NEOBIANACID LIMÓN 14 COMPRIMIDOS;9,95;6,37;;;salud-digestiva/acidez-reflujo/neobianacid-limon-14
+220898;NEOBIANACID LIMÓN 20 SOBRES;13,95;8,70;;;salud-digestiva/acidez-reflujo/neobianacid-limon-sobres
+172610;NEOBIANACID LIMÓN 45 COMPRIMIDOS;18,95;11,63;;;salud-digestiva/acidez-reflujo/neobianacid-limon-45
+208484;NEOBIANACID LIMÓN 70 COMPRIMIDOS;23,95;14,56;;;salud-digestiva/acidez-reflujo/neobianacid-limon-70
+177778;NEOFITOROID BIOPOMADA;13,95;8,50;;;salud-intima/higiene-intima/neofitoroid-biopomada
+182504;NEOFITOROID CÁPSULAS;20,95;12,57;;;piernas-cansadas//neofitoroid-capsulas
+197609;OROBEN COLUTORIO ORAL;13,95;;;;botiquin-primeros-auxilios/antisepticos/oroben-colutorio
+153978;FISIOVEN BIOGEL 100ML;17,95;;;;piernas-cansadas/cremas-piernas/fisioven-biogel
+156647;FISIOVEN PLUS 50 CAPS;22,95;;;;piernas-cansadas//fisioven-plus-capsulas

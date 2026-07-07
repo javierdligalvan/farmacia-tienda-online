@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python -c \"\nimport pathlib\n\nf = pathlib\\.Path\\(r'C:\\\\Users\\\\javie\\\\Escritorio\\\\Javier\\\\Experiencia_Laboral\\\\Ecommerce_Farmacia\\\\Farmacia Carmen Valle\\\\FICHAS_SEO\\\\ABOCA\\\\01_aliviolas-fisiolax-27-comprimidos\\.md'\\)\nc = f\\.read_text\\(encoding='utf-8'\\)\n# mostrar las primeras 1500 chars para ver que hay antes de la seccion 3\nprint\\(repr\\(c\\[1000:2500\\]\\)\\)\n\"\n$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
