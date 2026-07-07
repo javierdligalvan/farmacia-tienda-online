@@ -1,4 +1,4 @@
-# FICHA SEO/GEO — CARBÓN VEGETAL 90 COMPRIMIDOS (ABOCA)
+﻿# FICHA SEO/GEO — CARBÓN VEGETAL 90 COMPRIMIDOS (ABOCA)
 
 ---
 
@@ -10,14 +10,14 @@
 |---|---|
 | Nombre comercial | Carbón Vegetal 90 Comprimidos |
 | Laboratorio | Aboca |
-| Categoría / Subcategoría | Salud y Botiquín / Salud Digestiva |
-| PVP | 14,50 € |
+| Categoría / Subcategoría | Salud Digestiva / Hinchazón y Gases |
+| PVP | 13,95 € |
 | Principio activo o ingrediente clave | Carbón vegetal activo (2 g/dosis de 6 comprimidos) + Hinojo (frutos) |
 | Para qué sirve | Reducir el exceso de gases intestinales (flatulencia) tras las comidas |
 | Formato / presentación | 90 comprimidos de 490 mg |
 | Tipo regulatorio | Complemento alimenticio |
 
-**Claim regulatorio (EFSA):** El carbón vegetal contribuye a reducir el exceso de gases del aparato digestivo posprandial. Afirmación autorizada por la EFSA (Autoridad Europea de Seguridad Alimentaria) cuando la dosis es de ≥1 g antes y después de la comida (=2 g/comida).
+**Alegación regulatoria autorizada por la EFSA:** El carbón vegetal contribuye a reducir el exceso de gases del aparato digestivo posprandial. Afirmación autorizada por la EFSA (Autoridad Europea de Seguridad Alimentaria) cuando la dosis es de ≥1 g antes y después de la comida (=2 g/comida).
 
 ---
 
@@ -43,26 +43,100 @@
 ---
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 🗂 MAPA WOOCOMMERCE — DATOS LISTOS PARA COPIAR
+> Copia cada valor directamente en el campo correspondiente de WooCommerce. **No requiere interpretación.**
+
+---
+
+### ▶ 1. DATOS BÁSICOS DEL PRODUCTO
+
+| Campo WooCommerce | Valor a copiar |
+|---|---|
+| **Nombre del producto** | Carbón Vegetal 90 Comprimidos |
+| **SKU** | 221562 |
+| **Precio normal** | 13.95 |
+| **Categoría** | Salud Digestiva / Hinchazón y Gases |
+| **Etiquetas (tags)** | carbón vegetal para los gases intestinales farmacia, carbón vegetal comprimidos 90 sin receta precio, carbón activo para flatulencia posprandial, qué tomar para los gases después de comer, carbón vegetal cuando tomarlo antes o después de comer, remedio natural gases intestinales sin receta |
+
+---
+
+### ▶ 2. DESCRIPCIÓN CORTA *(campo bajo el precio en la ficha de tienda)*
+
+Carbón Vegetal 90 Comprimidos de Aboca — complemento alimenticio para reducir el exceso de gases intestinales (flatulencia) tras las comidas. Presentación: 90 comprimidos de 490 mg. Sin receta. Envío a toda la Península en 24-72h.
+
+---
+
+### ▶ 3. DESCRIPCIÓN LARGA *(pestaña "Descripción" en WooCommerce)*
+
+Copia **en este orden** desde la sección 3 de esta ficha:
+
+| Orden | Qué copiar |
+|---|---|
+| 1 | Todo desde **## ¿Qué es Carbón Vegetal 90 Comprimidos...** hasta el final de "Ventajas" |
+| 2 | Las **10 FAQs** completas (§ 4) |
+| 3 | La **Tabla comparativa** completa (§ 5) |
+
+*(No copies: Análisis, Keywords, Mapa WooCommerce, JSON-LD, Enlazado ni Checklist)*
+
+---
+
+### ▶ 4. CAMPOS SEO *(plugin Yoast / Rank Math / SEOPress)*
+
+| Campo del plugin | Valor a copiar |
+|---|---|
+| **Slug / Enlace permanente** | `salud-digestiva/gases-hinchazon/carbon-vegetal-90-comprimidos` |
+| **SEO Title** | Carbón Vegetal para los Gases — 90 comp. | Farmacia Carmen Valle |
+| **Meta Description** | Carbón vegetal activo para reducir gases tras las comidas · Aboca · 90 comprimidos sin receta · 13,95 € · Avalado por EFSA · Compra online con envío 24-72h. |
+| **Focus Keyphrase** | carbón vegetal para los gases intestinales farmacia |
+
+> El **H1** NO se escribe aquí — WooCommerce lo genera automáticamente desde el campo "Nombre del producto".
+> Verifica en vista previa que el H1 coincide con lo esperado.
+
+---
+
+### ▶ 5. IMÁGENES
+
+Carpeta: `IMÁGENES/ABOCA/COMPRESSED/CARBON VEGETAL/`
+
+| Posición en WooCommerce | Archivo a subir | Alt text sugerido |
+|---|---|---|
+| **Imagen destacada** | `CARBÓN VEGETAL 1.webp` | Carbón Vegetal 90 Comprimidos Aboca |
+| **Galería — 1ª** | `CARBÓN VEGETAL 2.webp` | Carbón Vegetal 90 Comprimidos Aboca — vista 1 |
+| **Galería — 2ª** | `CARBÓN VEGETAL 3.webp` | Carbón Vegetal 90 Comprimidos Aboca — vista 2 |
+| **Galería — 3ª** | `CARBÓN VEGETAL.webp` | Carbón Vegetal 90 Comprimidos Aboca — vista 3 |
+
+---
+
+### ▶ 6. JSON-LD *(complemento SEO — no sustituye los campos anteriores)*
+
+Pega el bloque completo de la **§ 6** de esta ficha en el plugin Schema (Rank Math / SEOPress)
+o directamente en modo HTML al final de la descripción larga.
+Verifica en: https://search.google.com/test/rich-results
+
+---
+
 ## 3. ELEMENTOS SEO ON PAGE
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔵 **URL:**
 ```
-/salud/digestivo/carbon-vegetal-gases-intestinales/
+/salud-digestiva/gases-hinchazon/carbon-vegetal-90-comprimidos/
 ```
 
 ---
 
 🔵 **Meta Title (58 caracteres):**
 ```
-Carbón Vegetal para los Gases — 90 comp. | Farmacia Muro
+Carbón Vegetal para los Gases — 90 comp. | Farmacia Online
 ```
 
 ---
 
 🔵 **Meta Description (153 caracteres):**
 ```
-Carbón vegetal activo Aboca para reducir gases tras las comidas. 90 comprimidos sin receta — 14,50 €. Avalo EFSA. Compra online con envío 24h.
+Carbón vegetal activo Aboca para reducir gases tras las comidas. 90 comprimidos sin receta — 13,95 €. Autorizada por la EFSA. Compra online con envío 24-72h.
 ```
 
 ---
@@ -76,129 +150,191 @@ Carbón Vegetal Aboca 90 Comprimidos — Reduce los gases intestinales tras las 
 
 🔵 **Descripción del producto (cuerpo completo):**
 
-## ¿Qué es el Carbón Vegetal Aboca y para qué sirve?
+<h2>¿Qué es el Carbón Vegetal Aboca y para qué sirve?</h2>
+<p>El Carbón Vegetal de Aboca es un <strong>complemento alimenticio</strong> en comprimidos que ayuda a reducir el exceso de gases del aparato digestivo, especialmente los que aparecen <strong>después de las comidas</strong> (lo que los médicos llaman flatulencia posprandial). Su eficacia está avalada por la <strong>EFSA</strong> (la Autoridad Europea de Seguridad Alimentaria), que reconoce que el carbón vegetal contribuye a reducir el exceso de gases cuando se usa en dosis de mayores o iguales a 1 g antes y después de la comida.</p>
+<p>El carbón vegetal activo —el principio clave del producto— funciona como una <strong>esponja molecular</strong>: absorbe los gases en el intestino antes de que se acumulen y causen molestias. Aboca complementa esta acción con frutos de <strong>Hinojo</strong>, planta de propiedades carminativas reconocidas por su capacidad para facilitar la expulsión de gases y aliviar la sensación de hinchazón.</p>
+<hr />
+<h2>Ingredientes y composición</h2>
+<table>
+<thead>
+<tr>
+<th>Ingrediente</th>
+<th>Función</th>
+<th>Cantidad por dosis (6 comp.)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Carbón vegetal activo</strong></td>
+<td>Absorbe los gases en el intestino</td>
+<td>2.080 mg (~2 g)</td>
+</tr>
+<tr>
+<td><strong>Hinojo</strong> (<em>Foeniculum vulgare</em>, frutos)</td>
+<td>Carminativo: facilita la expulsión de gases</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Almidón de trigo</td>
+<td>Excipiente</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Goma Acacia</td>
+<td>Excipiente natural</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>Dosis por comprimido: <strong>490 mg</strong>. Sin gluten (el almidón es inerte, no contiene gluten según la etiqueta) — confirmar alérgicos con el farmacéutico.</p>
+<hr />
+<h2>¿Cómo se usa?</h2>
+<ol>
+<li>Tomar <strong>3 comprimidos, 30 minutos antes de la comida principal</strong>.</li>
+<li>Tomar <strong>3 comprimidos adicionales justo después</strong> de esa misma comida.</li>
+<li>Administrar siempre con un <strong>vaso grande de agua</strong>.</li>
+<li>La dosis total recomendada por comida es de <strong>6 comprimidos</strong> (490 mg × 6 = ~2,9 g, de los cuales ~2 g son carbón vegetal activo).</li>
+<li>No superar la dosis recomendada.</li>
+</ol>
+<blockquote>
+<p><strong>Consejo farmacéutico:</strong> Toma el carbón vegetal separado al menos <strong>2 horas de cualquier medicamento</strong> que estés tomando, ya que el carbón activo puede reducir la absorción de fármacos.</p>
+</blockquote>
+<hr />
+<h2>Ventajas frente a alternativas</h2>
+<ul>
+<li><strong>Avalado por la EFSA</strong>: es uno de los pocos ingredientes con respaldo científico oficial para reducir gases posprandiales.</li>
+<li><strong>Sin sustancias de síntesis</strong>: frente a remedios como la simeticona (de síntesis), el carbón vegetal es de origen natural y 100 % biodegradable.</li>
+<li><strong>Doble acción</strong>: carbón activo (absorbe gases) + hinojo (facilita su expulsión).</li>
+<li><strong>Sin receta</strong> y de venta online — no es necesario ir a la farmacia.</li>
+</ul>
+<hr />
+<h2>Avales y referencias</h2>
+<ul>
+<li>Avalado por la <strong>EFSA</strong> (European Food Safety Authority) — Diario Oficial de la Unión Europea, Reglamento (UE) 432/2012.</li>
+<li>Fabricado por <strong>Aboca</strong>, empresa con certificación de calidad ISO y más de 40 años de investigación en fitoquímica.</li>
+</ul>
+<hr />
+<h2>FAQs - Preguntas y Respuestas</h2>
+<h3>¿Para qué sirve el Carbón Vegetal de Aboca?</h3>
+<p>El Carbón Vegetal de Aboca reduce el exceso de gases intestinales posprandiales —los gases que se forman en el intestino después de las comidas. Contiene carbón vegetal activo (avalado por la EFSA para este uso) e Hinojo como carminativo natural para facilitar la eliminación de esos gases.</p>
+<hr />
+<h3>¿Cuándo hay que tomar el Carbón Vegetal, antes o después de comer?</h3>
+<p>Hay que tomarlo <strong>tanto antes como después</strong> de la comida: 3 comprimidos 30 minutos antes y 3 comprimidos justo después. Este protocolo está basado en la autorización por la EFSA para el carbón vegetal en la reducción de gases.</p>
+<hr />
+<h3>¿El Carbón Vegetal puede reducir la absorción de mis medicamentos?</h3>
+<p>Sí. El carbón activo actúa como absorbente y puede reducir la absorción de algunos medicamentos si se toman al mismo tiempo. Por eso, debes separar la toma del Carbón Vegetal de cualquier medicamento al menos <strong>2 horas</strong> antes o después.</p>
+<hr />
+<h3>¿Se puede comprar el Carbón Vegetal de Aboca sin receta?</h3>
+<p>Sí, es un complemento alimenticio de venta libre. Puedes comprarlo online en Farmacia Carmen Valle con envío a toda España, sin necesidad de receta ni de desplazarte físicamente.</p>
+<hr />
+<h3>¿El Carbón Vegetal Aboca pone negras las heces?</h3>
+<p>Sí, es un efecto totalmente normal e inofensivo. El carbón vegetal activo tiñe las heces de color negro o gris oscuro. No indica ningún problema de salud.</p>
+<hr />
+<h3>¿Es lo mismo que el carbón activado para intoxicaciones?</h3>
+<p>El principio activo (carbón activado) es el mismo, pero la indicación y la dosis son distintas. Para intoxicaciones agudas se usan dosis mucho más altas en entorno hospitalario. El Carbón Vegetal Aboca está formulado para el uso cotidiano contra los gases, en la dosis adecuada para ese fin.</p>
+<hr />
+<h3>¿Carbón Vegetal o Simeticona para los gases — cuál es mejor?</h3>
+<p>Son mecanismos distintos. La simeticona (de síntesis) actúa rompiendo las burbujas de gas en el intestino. El carbón vegetal las absorbe antes de que se formen. Ninguno es superior en términos absolutos: la elección depende del tipo de gases y la tolerancia personal. Para gases de origen digestivo-alimentario (fermentación), el carbón vegetal tiene el respaldo científico de la EFSA.</p>
+<hr />
+<h3>¿Cuánto tiempo puedo tomar el Carbón Vegetal?</h3>
+<p>Puede usarse durante períodos prolongados. Al ser un complemento alimenticio, no genera dependencia. No obstante, si los gases son constantes e intensos, conviene investigar la causa con un médico.</p>
+<hr />
+<h3>¿Es apto para embarazadas el Carbón Vegetal de Aboca?</h3>
+<p>El Carbón Vegetal es una de las pocas opciones para gases consideradas seguras durante el embarazo, pero como con cualquier producto durante la gestación, consulta a tu médico o farmacéutico antes de tomarlo.</p>
+<hr />
+<h3>¿Cuánto cuesta el Carbón Vegetal de Aboca?</h3>
+<p>El precio en Farmacia Carmen Valle es de <strong>13,95 €</strong> el envase de 90 comprimidos, disponible con envío a toda España.</p>
+<hr />
+<h2>TABLA COMPARATIVA</h2>
+<h2>Comparativa: Carbón Vegetal Aboca vs alternativas para los gases</h2>
+<table>
+<thead>
+<tr>
+<th>Característica</th>
+<th><strong>Carbón Vegetal Aboca</strong></th>
+<th>Simeticona (Aerored, etc.)</th>
+<th>Dimeticona</th>
+<th>Hinojo solo (tisana/supl.)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mecanismo</td>
+<td>Absorbe gases en intestino</td>
+<td>Rompe burbujas de gas</td>
+<td>Rompe burbujas de gas</td>
+<td>Carminativo (facilita expulsión)</td>
+</tr>
+<tr>
+<td>Origen</td>
+<td>Natural (vegetal)</td>
+<td>Síntesis química</td>
+<td>Síntesis química</td>
+<td>Natural (vegetal)</td>
+</tr>
+<tr>
+<td>Alegación EFSA / científico</td>
+<td>✅ Avalado por la EFSA</td>
+<td>No (indicación medicamento)</td>
+<td>No</td>
+<td>Limitado</td>
+</tr>
+<tr>
+<td>Formato</td>
+<td>Comprimidos</td>
+<td>Comprimidos/cápsulas/gotas</td>
+<td>Comprimidos/cápsulas</td>
+<td>Tisana/cápsulas</td>
+</tr>
+<tr>
+<td>Sin receta</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+</tr>
+<tr>
+<td>Interacción medicamentos</td>
+<td>Sí — esperar 2h</td>
+<td>Mínima</td>
+<td>Mínima</td>
+<td>Mínima</td>
+</tr>
+<tr>
+<td>PVP aprox.</td>
+<td><strong>13,95 €</strong> (90 comp.)</td>
+<td>~7-10 €</td>
+<td>~7-10 €</td>
+<td>~8-12 €</td>
+</tr>
+<tr>
+<td>Tiñe las heces</td>
+<td>Sí (negro, inofensivo)</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Valoración farmacéutica</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr>
+<td>Disponible Farmacia Carmen Valle</td>
+<td>✅ Sí</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><em>Los datos son orientativos y el farmacéutico puede asesorarte sobre la opción más adecuada según tus síntomas. Contáctanos por WhatsApp sin compromiso. Respuesta garantizada por uno de nuestros profesionales en menos de 24 horas.</em></p>
+</blockquote>
+<hr />
 
-El Carbón Vegetal de Aboca es un **complemento alimenticio** en comprimidos que ayuda a reducir el exceso de gases del aparato digestivo, especialmente los que aparecen **después de las comidas** (lo que los médicos llaman flatulencia posprandial). Su eficacia está avalada por la **EFSA** (la Autoridad Europea de Seguridad Alimentaria), que reconoce que el carbón vegetal contribuye a reducir el exceso de gases cuando se usa a dosis de ≥1 g antes y después de la comida.
-
-El carbón vegetal activo —el principio clave del producto— funciona como una **esponja molecular**: absorbe los gases en el intestino antes de que se acumulen y causen molestias. Aboca complementa esta acción con frutos de **Hinojo**, planta de propiedades carminativas reconocidas por su capacidad para facilitar la expulsión de gases y aliviar la sensación de hinchazón.
-
----
-
-## Ingredientes y composición
-
-| Ingrediente | Función | Cantidad por dosis (6 comp.) |
-|---|---|---|
-| **Carbón vegetal activo** | Absorbe los gases en el intestino | 2.080 mg (~2 g) |
-| **Hinojo** (*Foeniculum vulgare*, frutos) | Carminativo: facilita la expulsión de gases | — |
-| Almidón de trigo | Excipiente | — |
-| Goma Acacia | Excipiente natural | — |
-
-Dosis por comprimido: **490 mg**. Sin gluten (el almidón es inerte, no contiene gluten según la etiqueta) — confirmar alérgicos con el farmacéutico.
-
----
-
-## ¿Cómo se usa?
-
-1. Tomar **3 comprimidos, 30 minutos antes de la comida principal**.
-2. Tomar **3 comprimidos adicionales justo después** de esa misma comida.
-3. Administrar siempre con un **vaso grande de agua**.
-4. La dosis total recomendada por comida es de **6 comprimidos** (490 mg × 6 = ~2,9 g, de los cuales ~2 g son carbón vegetal activo).
-5. No superar la dosis recomendada.
-
-> **Consejo farmacéutico:** Toma el carbón vegetal separado al menos **2 horas de cualquier medicamento** que estés tomando, ya que el carbón activo puede reducir la absorción de fármacos.
-
----
-
-## Ventajas frente a alternativas
-
-- **Claim EFSA aprobado**: es uno de los pocos ingredientes con aval científico oficial de la EFSA para reducir gases posprandiales.
-- **Sin sustancias de síntesis**: frente a remedios como la simeticona (de síntesis), el carbón vegetal es de origen natural y 100 % biodegradable.
-- **Doble acción**: carbón activo (absorbe gases) + hinojo (facilita su expulsión).
-- **Sin receta** y de venta online — no es necesario ir a la farmacia.
-
----
-
-## Avales y referencias
-
-- Claim autorizado por la **EFSA** (European Food Safety Authority) — Diario Oficial de la Unión Europea, Reglamento (UE) 432/2012.
-- Fabricado por **Aboca**, empresa con certificación de calidad ISO y más de 40 años de investigación en fitoquímica.
-
----
-
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-## 4. FAQs (10 preguntas)
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-### ¿Para qué sirve el Carbón Vegetal de Aboca?
-El Carbón Vegetal de Aboca reduce el exceso de gases intestinales posprandiales —los gases que se forman en el intestino después de las comidas. Contiene carbón vegetal activo (avalado por la EFSA para este uso) e Hinojo como carminativo natural para facilitar la eliminación de esos gases.
-
----
-
-### ¿Cuándo hay que tomar el Carbón Vegetal, antes o después de comer?
-Hay que tomarlo **tanto antes como después** de la comida: 3 comprimidos 30 minutos antes y 3 comprimidos justo después. Este protocolo está basado en el claim aprobado por la EFSA para el carbón vegetal en la reducción de gases.
-
----
-
-### ¿El Carbón Vegetal puede reducir la absorción de mis medicamentos?
-Sí. El carbón activo actúa como absorbente y puede reducir la absorción de algunos medicamentos si se toman al mismo tiempo. Por eso, debes separar la toma del Carbón Vegetal de cualquier medicamento al menos **2 horas** antes o después.
-
----
-
-### ¿Se puede comprar el Carbón Vegetal de Aboca sin receta?
-Sí, es un complemento alimenticio de venta libre. Puedes comprarlo online en Farmacia Muro con envío a toda España, sin necesidad de receta ni de desplazarte físicamente.
-
----
-
-### ¿El Carbón Vegetal Aboca pone negras las heces?
-Sí, es un efecto totalmente normal e inofensivo. El carbón vegetal activo tiñe las heces de color negro o gris oscuro. No indica ningún problema de salud.
-
----
-
-### ¿Es lo mismo que el carbón activado para intoxicaciones?
-El principio activo (carbón activado) es el mismo, pero la indicación y la dosis son distintas. Para intoxicaciones agudas se usan dosis mucho más altas en entorno hospitalario. El Carbón Vegetal Aboca está formulado para el uso cotidiano contra los gases, en la dosis adecuada para ese fin.
-
----
-
-### ¿Carbón Vegetal o Simeticona para los gases — cuál es mejor?
-Son mecanismos distintos. La simeticona (de síntesis) actúa rompiendo las burbujas de gas en el intestino. El carbón vegetal las absorbe antes de que se formen. Ninguno es superior en términos absolutos: la elección depende del tipo de gases y la tolerancia personal. Para gases de origen digestivo-alimentario (fermentación), el carbón vegetal tiene el respaldo del claim EFSA.
-
----
-
-### ¿Cuánto tiempo puedo tomar el Carbón Vegetal?
-Puede usarse durante períodos prolongados. Al ser un complemento alimenticio, no genera dependencia. No obstante, si los gases son constantes e intensos, conviene investigar la causa con un médico.
-
----
-
-### ¿Es apto para embarazadas el Carbón Vegetal de Aboca?
-El Carbón Vegetal es una de las pocas opciones para gases consideradas seguras durante el embarazo, pero como con cualquier producto durante la gestación, consulta a tu médico o farmacéutico antes de tomarlo.
-
----
-
-### ¿Cuánto cuesta el Carbón Vegetal de Aboca?
-El precio en Farmacia Muro es de **14,50 €** el envase de 90 comprimidos, disponible con envío a toda España.
-
----
-
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-## 5. TABLA COMPARATIVA
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-## Comparativa: Carbón Vegetal Aboca vs alternativas para los gases
-
-| Característica | **Carbón Vegetal Aboca** | Simeticona (Aerored, etc.) | Dimeticona | Hinojo solo (tisana/supl.) |
-|---|---|---|---|---|
-| Mecanismo | Absorbe gases en intestino | Rompe burbujas de gas | Rompe burbujas de gas | Carminativo (facilita expulsión) |
-| Origen | Natural (vegetal) | Síntesis química | Síntesis química | Natural (vegetal) |
-| Avalo EFSA / científico | ✅ Claim EFSA aprobado | No (indicación medicamento) | No | Limitado |
-| Formato | Comprimidos | Comprimidos/cápsulas/gotas | Comprimidos/cápsulas | Tisana/cápsulas |
-| Sin receta | ✅ Sí | ✅ Sí | ✅ Sí | ✅ Sí |
-| Interacción medicamentos | Sí — esperar 2h | Mínima | Mínima | Mínima |
-| PVP aprox. | **14,50 €** (90 comp.) | ~7-10 € | ~7-10 € | ~8-12 € |
-| Tiñe las heces | Sí (negro, inofensivo) | No | No | No |
-| Valoración farmacéutica | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
-| Disponible Farmacia Muro | ✅ Sí | ❌ | ❌ | ❌ |
-
----
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ## 6. JSON-LD (listo para copiar)
@@ -212,7 +348,7 @@ El precio en Farmacia Muro es de **14,50 €** el envase de 90 comprimidos, disp
     {
       "@type": "Product",
       "name": "Carbón Vegetal 90 Comprimidos Aboca",
-      "description": "Complemento alimenticio de Aboca con carbón vegetal activo (2 g/dosis) e Hinojo para reducir el exceso de gases posprandiales. Claim EFSA aprobado. 90 comprimidos de 490 mg. Sin gluten.",
+      "description": "Complemento alimenticio de Aboca con carbón vegetal activo (2 g/dosis) e Hinojo para reducir el exceso de gases posprandiales. Avalado por la EFSA. 90 comprimidos de 490 mg. Sin gluten.",
       "brand": {
         "@type": "Brand",
         "name": "Aboca"
@@ -237,7 +373,7 @@ El precio en Farmacia Muro es de **14,50 €** el envase de 90 comprimidos, disp
           "name": "¿Para qué sirve el Carbón Vegetal de Aboca?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "El Carbón Vegetal de Aboca reduce el exceso de gases intestinales posprandiales. Contiene carbón vegetal activo con claim aprobado por la EFSA para este uso, combinado con Hinojo como carminativo natural. Se toma 3 comprimidos antes y 3 después de la comida principal."
+            "text": "El Carbón Vegetal de Aboca reduce el exceso de gases intestinales posprandiales. Contiene carbón vegetal activo con aval de la EFSA para este uso, combinado con Hinojo como carminativo natural. Se toma 3 comprimidos antes y 3 después de la comida principal."
           }
         },
         {
@@ -253,7 +389,7 @@ El precio en Farmacia Muro es de **14,50 €** el envase de 90 comprimidos, disp
           "name": "¿Se puede comprar el Carbón Vegetal de Aboca sin receta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Es un complemento alimenticio de venta libre, disponible sin receta en Farmacia Muro con envío a toda España. Precio: 14,50 €."
+            "text": "Sí. Es un complemento alimenticio de venta libre, disponible sin receta en Farmacia Carmen Valle con envío a toda España. Precio: 13,95 €."
           }
         },
         {
@@ -285,7 +421,7 @@ El precio en Farmacia Muro es de **14,50 €** el envase de 90 comprimidos, disp
           "@type": "ListItem",
           "position": 3,
           "name": "Carbón Vegetal 90 Comprimidos Aboca",
-          "item": "https://farmaciacarmenvalle.com/salud/digestivo/carbon-vegetal-gases-intestinales/"
+          "item": "https://farmaciacarmenvalle.com/salud-digestiva/gases-hinchazon/carbon-vegetal-aboca/"
         }
       ]
     }
@@ -317,24 +453,24 @@ El precio en Farmacia Muro es de **14,50 €** el envase de 90 comprimidos, disp
 ### SEO Técnico
 - [x] URL slug ≤5 palabras, sin tildes
 - [x] Meta Title ≤60 caracteres
-- [x] Meta Description ≤155 caracteres con precio y avalo EFSA
+- [x] Meta Description ≤155 caracteres con precio y aval EFSA
 - [x] H1 único diferente al Title
 - [x] JSON-LD completo (Product + FAQPage + BreadcrumbList)
 - [ ] Imágenes alt-text *(pendiente)*
 
 ### SEO Contenido
 - [x] Keyword principal en URL, H1, Title, primeras 100 palabras
-- [x] Diferenciador EFSA claim en H2 y descripción
+- [x] Diferenciador EFSA en H2 y descripción
 - [x] Advertencia de separación con medicamentos — importante para YMYL
 - [x] Sin keyword stuffing
 
 ### GEO
 - [x] FAQs directas con respuestas en primera frase
-- [x] Claim EFSA mencionado y referenciado
+- [x] Autorización por la EFSA mencionada y referenciada
 - [x] Tabla comparativa con datos verificables
 - [x] Precio y disponibilidad explícitos
 
 ### Conversión
 - [x] Precio visible (14,50 €) en título y meta
-- [x] Diferenciador clave: claim EFSA vs. competidores sin aval
+- [x] Diferenciador clave: Autorizada por la EFSA vs. competidores sin aval
 - [x] Aviso de separación con medicamentos (confianza y responsabilidad YMYL)

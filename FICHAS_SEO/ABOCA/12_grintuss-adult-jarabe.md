@@ -1,4 +1,4 @@
-# FICHA SEO/GEO — GRINTUSS ADULT JARABE (ABOCA)
+﻿# FICHA SEO/GEO — GRINTUSS ADULT JARABE (ABOCA)
 
 ---
 
@@ -10,8 +10,8 @@
 |---|---|
 | Nombre comercial | Grintuss Adult Jarabe |
 | Laboratorio | Aboca |
-| Categoría / Subcategoría | Salud y Botiquín / Primeros Auxilios |
-| PVP | 15,90 € |
+| Categoría / Subcategoría | Sistema Inmune / Gripe y Resfriado |
+| PVP | 14,95 € |
 | Principio activo o ingrediente clave | Poliresin® 80 mg/5 ml: polisacáridos+resinas+flavonoides LPME (Llantén, Grindelia, Helicriso biológicos) + Miel biológica 1,7 g/5 ml + aceites esenciales Eucalipto, Anís estrellado, Limón |
 | Para qué sirve | Tos seca y tos productiva en adultos y jóvenes ≥12 años, aguda y persistente |
 | Formato / presentación | Frasco 180 g (~132 ml) con cucharilla dosificadora |
@@ -47,31 +47,105 @@
 ---
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 🗂 MAPA WOOCOMMERCE — DATOS LISTOS PARA COPIAR
+> Copia cada valor directamente en el campo correspondiente de WooCommerce. **No requiere interpretación.**
+
+---
+
+### ▶ 1. DATOS BÁSICOS DEL PRODUCTO
+
+| Campo WooCommerce | Valor a copiar |
+|---|---|
+| **Nombre del producto** | Grintuss Adult Jarabe |
+| **SKU** | 180466 |
+| **Precio normal** | 14.95 |
+| **Categoría** | Sistema Inmune / Resfriado y Gripe |
+| **Etiquetas (tags)** | jarabe tos adultos natural sin receta farmacia, grintuss adult jarabe precio sin receta online, jarabe para tos seca y productiva adultos sin codeína, qué jarabe para la tos adultos sin receta eficaz, grintuss jarabe diferencia adultos pediátrico, jarabe tos persistente adultos después resfriado |
+
+---
+
+### ▶ 2. DESCRIPCIÓN CORTA *(campo bajo el precio en la ficha de tienda)*
+
+Grintuss Adult Jarabe de Aboca — producto sanitario para tos seca y tos productiva en adultos y jóvenes ≥12 años, aguda y persistente. Presentación: Frasco 180 g (~132 ml) con cucharilla dosificadora. Sin receta. Envío a toda la Península en 24-72h.
+
+---
+
+### ▶ 3. DESCRIPCIÓN LARGA *(pestaña "Descripción" en WooCommerce)*
+
+Copia **en este orden** desde la sección 3 de esta ficha:
+
+| Orden | Qué copiar |
+|---|---|
+| 1 | Todo desde **## ¿Qué es Grintuss Adult Jarabe...** hasta el final de "Ventajas" |
+| 2 | Las **10 FAQs** completas (§ 4) |
+| 3 | La **Tabla comparativa** completa (§ 5) |
+
+*(No copies: Análisis, Keywords, Mapa WooCommerce, JSON-LD, Enlazado ni Checklist)*
+
+---
+
+### ▶ 4. CAMPOS SEO *(plugin Yoast / Rank Math / SEOPress)*
+
+| Campo del plugin | Valor a copiar |
+|---|---|
+| **Slug / Enlace permanente** | `sistema-inmune/gripe-resfriado/grintuss-adult-jarabe-tos-niños` |
+| **SEO Title** | Grintuss Adult Jarabe — Tos Adultos sin Receta | Farmacia Online |
+| **Meta Description** | Jarabe para la tos seca y con mocos en adultos desde 12 años, sin codeína. Grintuss Adult · Aboca · Sin receta · Envío 24-72h · 14,95€ |
+| **Focus Keyphrase** | jarabe tos adultos natural sin receta farmacia |
+
+> El **H1** NO se escribe aquí — WooCommerce lo genera automáticamente desde el campo "Nombre del producto".
+> Verifica en vista previa que el H1 coincide con lo esperado.
+
+---
+
+### ▶ 5. IMÁGENES
+
+Carpeta: `IMÁGENES/ABOCA/COMPRESSED/GRINTUSS ADULT JARABE/`
+
+| Posición en WooCommerce | Archivo a subir | Alt text sugerido |
+|---|---|---|
+| **Imagen destacada** | `GRINTUSS ADULT JARABE.webp` | Grintuss Adult Jarabe Aboca |
+| **Galería — 1ª** | `Grintuss jar_fronte.jpg` | Grintuss Adult Jarabe Aboca — vista frontal |
+| **Galería — 2ª** | `Grintuss jar_lato DX.jpg`   | Grintuss Adult Jarabe Aboca — vista lateral |
+| **Galería — 3ª** | `Grintuss jar_retro.jpg`  | Grintuss Adult Jarabe Aboca — vista trasera |
+
+---
+
+### ▶ 6. JSON-LD *(complemento SEO — no sustituye los campos anteriores)*
+
+Pega el bloque completo de la **§ 6** de esta ficha en el plugin Schema (Rank Math / SEOPress)
+o directamente en modo HTML al final de la descripción larga.
+Verifica en: https://search.google.com/test/rich-results
+
+---
+
 ## 3. ELEMENTOS SEO ON PAGE
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔵 **URL:**
 ```
-/salud/primeros-auxilios/grintuss-adult-jarabe-tos/
+/sistema-inmune/gripe-resfriado/grintuss-adult-jarabe-tos-niños/
 ```
 
 ---
 
 🔵 **Meta Title (59 caracteres):**
 ```
-Grintuss Adult Jarabe — Tos Adultos sin Receta | Farmacia Muro
+Grintuss Adult Jarabe — Tos Adultos sin Receta | Farmacia Online
 ```
 *(62 chars — ajustar:)*
 ```
-Grintuss Adult — Jarabe Tos Adultos | Farmacia Muro
+Grintuss Adult — Jarabe Tos Adultos | Farmacia Online
 ```
 *(51 chars ✓)*
 
 ---
 
-🔵 **Meta Description (153 caracteres):**
+🔵 **Meta Description (134 caracteres):**
 ```
-Jarabe natural para tos seca y productiva adultos ≥12 años. Grintuss Adult Aboca 180 g — 15,90 €. Sin codeína. Compra online sin receta · Envío 24h.
+Jarabe para la tos seca y con mocos en adultos desde 12 años, sin codeína. Grintuss Adult · Aboca · Sin receta · Envío 24-72h · 14,95€
 ```
 
 ---
@@ -85,141 +159,220 @@ Grintuss Adult Jarabe — Tos seca y productiva en adultos sin codeína ni antih
 
 🔵 **Descripción del producto (cuerpo completo):**
 
-## ¿Qué es Grintuss Adult y para qué sirve?
+<h2>¿Qué es Grintuss Adult y para qué sirve?</h2>
+<p>Grintuss Adult es un <strong>producto sanitario de Aboca</strong> en formato jarabe, indicado para la <strong>tos seca y la tos productiva</strong> (con moco) en adultos y jóvenes a partir de <strong>12 años</strong>. Tanto en la tos aguda (resfriado, gripe, faringitis) como en la tos persistente que queda tras una infección respiratoria.</p>
+<p>Su principio activo es <strong>Poliresin®</strong> (80 mg por 5 ml de jarabe), un complejo patentado de polisacáridos, resinas y flavonoides obtenidos de tres plantas de agricultura ecológica certificada: <strong>Llantén menor</strong>, <strong>Grindelia</strong> y <strong>Helicriso</strong>. Este complejo actúa formando una <strong>película barrera viscosa</strong> sobre la mucosa de las vías respiratorias que:</p>
+<ul>
+<li><strong>Protege</strong> la mucosa irritada del contacto con agentes externos.</li>
+<li><strong>Hidrata</strong> las vías respiratorias resequidas (especialmente en tos seca).</li>
+<li><strong>Regula</strong> la viscosidad del moco en la tos productiva (mucorregulador), facilitando su expectoración.</li>
+<li><strong>Aporta actividad antioxidante</strong> sobre los tejidos inflamados.</li>
+</ul>
+<p>La <strong>miel ecológica</strong> (1,7 g por dosis) complementa el efecto barrera con sus propiedades naturales calmantes sobre la garganta. Los aceites esenciales de <strong>Eucalipto</strong>, <strong>Anís estrellado</strong> y <strong>Limón</strong> añaden un efecto balsámico y refrescante.</p>
+<hr />
+<h2>Ingredientes y composición</h2>
+<p>Por 5 ml (1 cucharadita rasa):</p>
+<table>
+<thead>
+<tr>
+<th>Componente</th>
+<th>Cantidad</th>
+<th>Función</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Poliresin®</strong> (polisacáridos+resinas+flavonoides de Llantén<em>, Grindelia</em>, Helicriso*)</td>
+<td>80 mg</td>
+<td>Barrera mucoadhesiva + antioxidante + mucorregulador</td>
+</tr>
+<tr>
+<td><strong>Miel</strong> ecológica*</td>
+<td>1,7 g</td>
+<td>Calmante, parte de la barrera</td>
+</tr>
+<tr>
+<td>Azúcar de caña ecológico*</td>
+<td>—</td>
+<td>Excipiente natural</td>
+</tr>
+<tr>
+<td>Aceite esencial <strong>Eucalipto</strong></td>
+<td>—</td>
+<td>Balsámico, antimicrobiano leve</td>
+</tr>
+<tr>
+<td>Aceite esencial <strong>Anís estrellado</strong></td>
+<td>—</td>
+<td>Expectorante suave</td>
+</tr>
+<tr>
+<td>Aceite esencial <strong>Limón</strong></td>
+<td>—</td>
+<td>Antioxidante, frescor</td>
+</tr>
+</tbody>
+</table>
+<p>*Certificación de agricultura ecológica · Sin gluten · Sin lactosa · Desde 12 años.</p>
+<hr />
+<h2>¿Cómo se usa?</h2>
+<ol>
+<li><strong>Agitar el frasco</strong> antes de cada uso.</li>
+<li>Tomar <strong>2 cucharaditas rasas</strong> (10 ml) por toma.</li>
+<li>Administrar <strong>2 a 4 veces al día</strong> según la intensidad de la tos.</li>
+<li>La <strong>última toma antes de acostarse</strong> para calmar la tos nocturna.</li>
+<li>No diluir en agua — tomar puro para que la barrera mucoadhesiva sea efectiva.</li>
+</ol>
+<blockquote>
+<p><strong>Consejo farmacéutico:</strong> No beber agua ni comer durante 15-20 minutos después de tomarlo — dejar que el Poliresin® forme la película barrera en la garganta sin diluirla.</p>
+</blockquote>
+<hr />
+<h2>Ventajas frente a otras opciones</h2>
+<ul>
+<li><strong>Doble indicación tos seca + productiva</strong>: un solo jarabe para las dos formas de tos más habituales, frente a otros que solo sirven para una.</li>
+<li><strong>Sin codeína, sin dextrometorfano, sin antihistamínicos</strong>: no causa somnolencia, no tiene riesgo de dependencia ni interacciones con medicamentos.</li>
+<li><strong>Poliresin® con ingredientes de agricultura biológica</strong>: mayor pureza y trazabilidad de los principios activos.</li>
+<li><strong>Miel ecológica en la fórmula</strong>: eficacia calmante natural apoyada por la OMS en revisiones sobre el manejo de la tos.</li>
+</ul>
+<hr />
+<h2>Avales y referencias</h2>
+<p>Producto Sanitario CE (CPSP23107CAT). El Llantén menor tiene monografía en la <strong>EMA</strong> para el alivio de la irritación de la mucosa oral y faríngea en tos. La Grindelia y el Helicriso están reconocidos por sus propiedades mucorreguladores en la fitoterapia europea. Fabricado por <strong>Aboca</strong> con certificación de agricultura ecológica.</p>
+<hr />
+<h2>FAQs - Preguntas y Respuestas</h2>
+<h3>¿Para qué sirve Grintuss Adult jarabe?</h3>
+<p>Grintuss Adult es un jarabe natural para la tos seca y la tos con moco en adultos y jóvenes a partir de 12 años. Contiene Poliresin® (Llantén, Grindelia, Helicriso biológicos) que forma una barrera protectora en la garganta, y miel ecológica. No tiene codeína ni antihistamínicos, por lo que no provoca somnolencia.</p>
+<hr />
+<h3>¿Sirve Grintuss Adult tanto para la tos seca como para la tos con moco?</h3>
+<p>Sí. Esta es una de sus características más destacables: gracias al mecanismo de barrera + mucorregulador del Poliresin®, Grintuss Adult actúa tanto en la tos seca (hidratar la mucosa irritada) como en la tos productiva (regular la viscosidad del moco para facilitar su expectoración).</p>
+<hr />
+<h3>¿Grintuss Adult produce somnolencia?</h3>
+<p>No. Grintuss Adult no contiene codeína, dextrometorfano, antihistamínicos de primera generación ni ningún otro ingrediente que cause somnolencia. Puede tomarse durante el día sin afectar a la conducción ni al trabajo.</p>
+<hr />
+<h3>¿Cuándo hay que tomar Grintuss Adult?</h3>
+<p>Se toman 2 cucharaditas rasas (10 ml) de 2 a 4 veces al día. La última toma es importante hacerla <strong>antes de acostarse</strong> para reducir la tos nocturna. No beber agua ni comer en los 15-20 minutos posteriores a la toma.</p>
+<hr />
+<h3>¿Se puede comprar Grintuss Adult sin receta?</h3>
+<p>Sí. Es un producto sanitario de venta libre. Disponible en nuestra farmacia sin receta, con envío a toda España. Precio: 14,95 €.</p>
+<hr />
+<h3>¿Hay diferencia entre Grintuss Adult y Grintuss Pediatric?</h3>
+<p>Sí. Grintuss Adult (desde 12 años) contiene Poliresin® 80 mg/5 ml con aceites esenciales de Eucalipto, Anís estrellado y Limón. Grintuss Pediatric (desde 1 año) tiene Poliresin® 31 mg/5 ml con aceites de Limón, Naranja dulce y Mirto, formulación más suave y aromáticamente más agradable para niños.</p>
+<hr />
+<h3>¿Cuánto dura un frasco de Grintuss Adult?</h3>
+<p>El frasco contiene 180 g (~132 ml). Con 2 tomas diarias de 10 ml, dura aproximadamente <strong>6-7 días</strong>. Con 4 tomas al día, unos 3-4 días.</p>
+<hr />
+<h3>¿Grintuss Adult se puede combinar con Fitonasal o Golamir?</h3>
+<p>Sí. Grintuss Adult actúa sobre las vías respiratorias bajas (bronquios, laringe), mientras que Fitonasal actúa en la mucosa nasal y Golamir en la garganta. Son complementarios y pueden usarse simultáneamente si los síntomas afectan a varias zonas del tracto respiratorio.</p>
+<hr />
+<h3>¿Grintuss Adult es apto para personas con alergia?</h3>
+<p>La fórmula es de origen vegetal y no contiene gluten ni lactosa. No obstante, si tienes alergia a alguno de los componentes (Llantén, Grindelia, Helicriso, miel, aceites esenciales), consulta con tu farmacéutico antes de tomarlo.</p>
+<hr />
+<h3>¿Cuánto cuesta Grintuss Adult jarabe?</h3>
+<p>El precio en nuestra farmacia es de <strong>14,95 €</strong> el frasco de 180 g, con envío a toda España.</p>
+<hr />
+<h2>TABLA COMPARATIVA</h2>
+<h2>Comparativa: Grintuss Adult vs jarabes para la tos en adultos</h2>
+<table>
+<thead>
+<tr>
+<th>Característica</th>
+<th><strong>Grintuss Adult</strong> (Aboca)</th>
+<th>Bisolvon (bromhexina)</th>
+<th>Fluimucil (acetilcisteína)</th>
+<th>Cough Calm (miel+limón genérico)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mecanismo</td>
+<td>Barrera + mucorregulador + antioxidante (Poliresin®)</td>
+<td>Mucolítico de síntesis</td>
+<td>Mucolítico de síntesis</td>
+<td>Calmante suave</td>
+</tr>
+<tr>
+<td>Tos seca</td>
+<td>✅ Sí</td>
+<td>❌ No (solo productiva)</td>
+<td>❌ No</td>
+<td>✅ Sí (leve)</td>
+</tr>
+<tr>
+<td>Tos productiva</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+<td>❌ No</td>
+</tr>
+<tr>
+<td>Sin codeína</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+</tr>
+<tr>
+<td>Sin somnolencia</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+</tr>
+<tr>
+<td>Origen</td>
+<td>Natural (biológico)</td>
+<td>Síntesis química</td>
+<td>Síntesis química</td>
+<td>Natural</td>
+</tr>
+<tr>
+<td>Producto Sanitario CE</td>
+<td>✅ Sí</td>
+<td>Medicamento OTC</td>
+<td>Medicamento OTC</td>
+<td>Complemento / Cosm.</td>
+</tr>
+<tr>
+<td>Desde qué edad</td>
+<td>12 años</td>
+<td>12 años</td>
+<td>14 años</td>
+<td>Variable</td>
+</tr>
+<tr>
+<td>Sin gluten/lactosa</td>
+<td>✅ Sí</td>
+<td>Verificar</td>
+<td>Verificar</td>
+<td>Verificar</td>
+</tr>
+<tr>
+<td>PVP aprox.</td>
+<td><strong>14,95 €</strong></td>
+<td>~7-12 €</td>
+<td>~8-13 €</td>
+<td>~5-8 €</td>
+</tr>
+<tr>
+<td>Valoración farmacéutica</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr>
+<td>Disponible nuestra farmacia</td>
+<td>✅ Sí</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><em>Los datos son orientativos y el farmacéutico puede asesorarte sobre la opción más adecuada según tus síntomas. Contáctanos por WhatsApp sin compromiso. Respuesta garantizada por uno de nuestros profesionales en menos de 24 horas.</em></p>
+</blockquote>
+<hr />
 
-Grintuss Adult es un **producto sanitario de Aboca** en formato jarabe, indicado para la **tos seca y la tos productiva** (con moco) en adultos y jóvenes a partir de **12 años**. Tanto en la tos aguda (resfriado, gripe, faringitis) como en la tos persistente que queda tras una infección respiratoria.
-
-Su principio activo es **Poliresin®** (80 mg por 5 ml de jarabe), un complejo patentado de polisacáridos, resinas y flavonoides obtenidos de tres plantas de agricultura ecológica certificada: **Llantén menor**, **Grindelia** y **Helicriso**. Este complejo actúa formando una **película barrera viscosa** sobre la mucosa de las vías respiratorias que:
-
-- **Protege** la mucosa irritada del contacto con agentes externos.
-- **Hidrata** las vías respiratorias resequidas (especialmente en tos seca).
-- **Regula** la viscosidad del moco en la tos productiva (mucorregulador), facilitando su expectoración.
-- **Aporta actividad antioxidante** sobre los tejidos inflamados.
-
-La **miel ecológica** (1,7 g por dosis) complementa el efecto barrera con sus propiedades naturales calmantes sobre la garganta. Los aceites esenciales de **Eucalipto**, **Anís estrellado** y **Limón** añaden un efecto balsámico y refrescante.
-
----
-
-## Ingredientes y composición
-
-Por 5 ml (1 cucharadita rasa):
-
-| Componente | Cantidad | Función |
-|---|---|---|
-| **Poliresin®** (polisacáridos+resinas+flavonoides de Llantén*, Grindelia*, Helicriso*) | 80 mg | Barrera mucoadhesiva + antioxidante + mucorregulador |
-| **Miel** ecológica* | 1,7 g | Calmante, parte de la barrera |
-| Azúcar de caña ecológico* | — | Excipiente natural |
-| Aceite esencial **Eucalipto** | — | Balsámico, antimicrobiano leve |
-| Aceite esencial **Anís estrellado** | — | Expectorante suave |
-| Aceite esencial **Limón** | — | Antioxidante, frescor |
-
-*Certificación de agricultura ecológica · Sin gluten · Sin lactosa · Desde 12 años.
-
----
-
-## ¿Cómo se usa?
-
-1. **Agitar el frasco** antes de cada uso.
-2. Tomar **2 cucharaditas rasas** (10 ml) por toma.
-3. Administrar **2 a 4 veces al día** según la intensidad de la tos.
-4. La **última toma antes de acostarse** para calmar la tos nocturna.
-5. No diluir en agua — tomar puro para que la barrera mucoadhesiva sea efectiva.
-
-> **Consejo farmacéutico:** No beber agua ni comer durante 15-20 minutos después de tomarlo — dejar que el Poliresin® forme la película barrera en la garganta sin diluirla.
-
----
-
-## Ventajas frente a otras opciones
-
-- **Doble indicación tos seca + productiva**: un solo jarabe para las dos formas de tos más habituales, frente a otros que solo sirven para una.
-- **Sin codeína, sin dextrometorfano, sin antihistamínicos**: no causa somnolencia, no tiene riesgo de dependencia ni interacciones con medicamentos.
-- **Poliresin® con ingredientes de agricultura biológica**: mayor pureza y trazabilidad de los principios activos.
-- **Miel ecológica en la fórmula**: eficacia calmante natural apoyada por la OMS en revisiones sobre el manejo de la tos.
-
----
-
-## Avales y referencias
-
-Producto Sanitario CE (CPSP23107CAT). El Llantén menor tiene monografía en la **EMA** para el alivio de la irritación de la mucosa oral y faríngea en tos. La Grindelia y el Helicriso están reconocidos por sus propiedades mucorreguladores en la fitoterapia europea. Fabricado por **Aboca** con certificación de agricultura ecológica.
-
----
-
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-## 4. FAQs (10 preguntas)
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-### ¿Para qué sirve Grintuss Adult jarabe?
-Grintuss Adult es un jarabe natural para la tos seca y la tos con moco en adultos y jóvenes a partir de 12 años. Contiene Poliresin® (Llantén, Grindelia, Helicriso biológicos) que forma una barrera protectora en la garganta, y miel ecológica. No tiene codeína ni antihistamínicos, por lo que no provoca somnolencia.
-
----
-
-### ¿Sirve Grintuss Adult tanto para la tos seca como para la tos con moco?
-Sí. Esta es una de sus características más destacables: gracias al mecanismo de barrera + mucorregulador del Poliresin®, Grintuss Adult actúa tanto en la tos seca (hidratar la mucosa irritada) como en la tos productiva (regular la viscosidad del moco para facilitar su expectoración).
-
----
-
-### ¿Grintuss Adult produce somnolencia?
-No. Grintuss Adult no contiene codeína, dextrometorfano, antihistamínicos de primera generación ni ningún otro ingrediente que cause somnolencia. Puede tomarse durante el día sin afectar a la conducción ni al trabajo.
-
----
-
-### ¿Cuándo hay que tomar Grintuss Adult?
-Se toman 2 cucharaditas rasas (10 ml) de 2 a 4 veces al día. La última toma es importante hacerla **antes de acostarse** para reducir la tos nocturna. No beber agua ni comer en los 15-20 minutos posteriores a la toma.
-
----
-
-### ¿Se puede comprar Grintuss Adult sin receta?
-Sí. Es un producto sanitario de venta libre. Disponible en Farmacia Muro sin receta, con envío a toda España. Precio: 15,90 €.
-
----
-
-### ¿Hay diferencia entre Grintuss Adult y Grintuss Pediatric?
-Sí. Grintuss Adult (desde 12 años) contiene Poliresin® 80 mg/5 ml con aceites esenciales de Eucalipto, Anís estrellado y Limón. Grintuss Pediatric (desde 1 año) tiene Poliresin® 31 mg/5 ml con aceites de Limón, Naranja dulce y Mirto, formulación más suave y aromáticamente más agradable para niños.
-
----
-
-### ¿Cuánto dura un frasco de Grintuss Adult?
-El frasco contiene 180 g (~132 ml). Con 2 tomas diarias de 10 ml, dura aproximadamente **6-7 días**. Con 4 tomas al día, unos 3-4 días.
-
----
-
-### ¿Grintuss Adult se puede combinar con Fitonasal o Golamir?
-Sí. Grintuss Adult actúa sobre las vías respiratorias bajas (bronquios, laringe), mientras que Fitonasal actúa en la mucosa nasal y Golamir en la garganta. Son complementarios y pueden usarse simultáneamente si los síntomas afectan a varias zonas del tracto respiratorio.
-
----
-
-### ¿Grintuss Adult es apto para personas con alergia?
-La fórmula es de origen vegetal y no contiene gluten ni lactosa. No obstante, si tienes alergia a alguno de los componentes (Llantén, Grindelia, Helicriso, miel, aceites esenciales), consulta con tu farmacéutico antes de tomarlo.
-
----
-
-### ¿Cuánto cuesta Grintuss Adult jarabe?
-El precio en Farmacia Muro es de **15,90 €** el frasco de 180 g, con envío a toda España.
-
----
-
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-## 5. TABLA COMPARATIVA
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-## Comparativa: Grintuss Adult vs jarabes para la tos en adultos
-
-| Característica | **Grintuss Adult** (Aboca) | Bisolvon (bromhexina) | Fluimucil (acetilcisteína) | Cough Calm (miel+limón genérico) |
-|---|---|---|---|---|
-| Mecanismo | Barrera + mucorregulador + antioxidante (Poliresin®) | Mucolítico de síntesis | Mucolítico de síntesis | Calmante suave |
-| Tos seca | ✅ Sí | ❌ No (solo productiva) | ❌ No | ✅ Sí (leve) |
-| Tos productiva | ✅ Sí | ✅ Sí | ✅ Sí | ❌ No |
-| Sin codeína | ✅ Sí | ✅ Sí | ✅ Sí | ✅ Sí |
-| Sin somnolencia | ✅ Sí | ✅ Sí | ✅ Sí | ✅ Sí |
-| Origen | Natural (biológico) | Síntesis química | Síntesis química | Natural |
-| Producto Sanitario CE | ✅ Sí | Medicamento OTC | Medicamento OTC | Complemento / Cosm. |
-| Desde qué edad | 12 años | 12 años | 14 años | Variable |
-| Sin gluten/lactosa | ✅ Sí | Verificar | Verificar | Verificar |
-| PVP aprox. | **15,90 €** | ~7-12 € | ~8-13 € | ~5-8 € |
-| Valoración farmacéutica | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ |
-| Disponible Farmacia Muro | ✅ Sí | ❌ | ❌ | ❌ |
-
----
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ## 6. JSON-LD (listo para copiar)
@@ -241,7 +394,7 @@ El precio en Farmacia Muro es de **15,90 €** el frasco de 180 g, con envío a 
       "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "15.90",
+        "price": "14.95",
         "availability": "https://schema.org/InStock",
         "seller": {
           "@type": "Pharmacy",
@@ -274,7 +427,7 @@ El precio en Farmacia Muro es de **15,90 €** el frasco de 180 g, con envío a 
           "name": "¿Se puede comprar Grintuss Adult sin receta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Es un producto sanitario de venta libre. Precio en Farmacia Muro: 15,90 € (180 g). Envío a toda España."
+            "text": "Sí. Es un producto sanitario de venta libre. Precio en nuestra farmacia: 14,95 € (180 g). Envío a toda la Península."
           }
         },
         {
@@ -306,7 +459,7 @@ El precio en Farmacia Muro es de **15,90 €** el frasco de 180 g, con envío a 
           "@type": "ListItem",
           "position": 3,
           "name": "Grintuss Adult Jarabe",
-          "item": "https://farmaciacarmenvalle.com/salud/primeros-auxilios/grintuss-adult-jarabe-tos/"
+          "item": "https://farmaciacarmenvalle.com/sistema-inmune/gripe-resfriado/grintuss-adult-jarabe-tos-niños/"
         }
       ]
     }
@@ -324,9 +477,9 @@ El precio en Farmacia Muro es de **15,90 €** el frasco de 180 g, con envío a 
 | Tipo de enlace | URL sugerida | Anchor text recomendado |
 |---|---|---|
 | Categoría padre | `/salud/primeros-auxilios/` | Primeros auxilios |
-| Versión pediátrica | `/bebe/grintuss-pediatric-jarabe-tos/` | Grintuss Pediatric — tos en niños |
-| Complementario garganta | `/salud/primeros-auxilios/golamir-comprimidos-dolor-garganta/` | Golamir Comprimidos — dolor de garganta |
-| Complementario nasal | `/salud/primeros-auxilios/fitonasal-spray-concentrado-nasal-adultos/` | Fitonasal Spray Concentrado — nariz congestionada |
+| Versión pediátrica | `/sistema-inmune/gripe-resfriado/grintuss-pediatric-jarabe/` | Grintuss Pediatric — tos en niños |
+| Complementario garganta | `/sistema-inmune/gripe-resfriado/golamir-2act-comprimidos/` | Golamir Comprimidos — dolor de garganta |
+| Complementario nasal | `/sistema-inmune/gripe-resfriado/fitonasal-spray-concentrado/` | Fitonasal Spray Concentrado — nariz congestionada |
 
 ---
 

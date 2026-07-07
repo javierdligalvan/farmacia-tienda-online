@@ -1,4 +1,4 @@
-# FICHA SEO/GEO — NEOBIANACID 14 COMPRIMIDOS (Sabor Menta) (ABOCA)
+﻿# FICHA SEO/GEO — NEOBIANACID 14 COMPRIMIDOS (Sabor Menta) (ABOCA)
 
 ---
 
@@ -8,10 +8,10 @@
 
 | Campo | Valor |
 |---|---|
-| Nombre comercial | NeoBianacid 14 Comprimidos (Sabor Menta) |
+| Nombre comercial | NeoBianacid 14 Comprimidos Menta |
 | Laboratorio | Aboca |
-| Categoría / Subcategoría | Salud y Botiquín / Salud Digestiva |
-| PVP | 10,90 € |
+| Categoría / Subcategoría | Salud Digestiva / Acidez y Reflujo |
+| PVP | 9,95 € |
 | Principio activo o ingrediente clave | Poliprotect® 528 mg/comp.: polisacáridos LPME (Malva+Malvavisco+Aloe vera 105 mg) + minerales (Limestone+Nahcolite 423 mg) + fracción flavonoica (Manzanilla+Regaliz 46 mg) |
 | Para qué sirve | Reflujo gastroesofágico, ardor de estómago, dificultades digestivas, dispepsia; también prevención con AINEs o estrés |
 | Formato / presentación | 14 comprimidos de 1,55 g — frasco; masticar o dejar disolver |
@@ -48,27 +48,98 @@
 ---
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 🗂 MAPA WOOCOMMERCE — DATOS LISTOS PARA COPIAR
+> Copia cada valor directamente en el campo correspondiente de WooCommerce. **No requiere interpretación.**
+
+---
+
+### ▶ 1. DATOS BÁSICOS DEL PRODUCTO
+
+| Campo WooCommerce | Valor a copiar |
+|---|---|
+| **Nombre del producto** | NeoBianacid 14 Comprimidos (Sabor Menta) |
+| **SKU** | 215873 |
+| **Precio normal** | 9.95 |
+| **Categoría** | Salud Digestiva / Acidez y Reflujo |
+| **Etiquetas (tags)** | neobianacid comprimidos reflujo acidez sin receta, pastillas naturales para el reflujo y ardor de estómago, neobianacid para qué sirve reflujo cómo se toma, reflujo gastroesofágico tratamiento natural sin omeprazol, ardor estomago embarazo remedio natural sin medicamento, diferencia neobianacid omeprazol pantoprazol cual tomar |
+
+---
+
+### ▶ 2. DESCRIPCIÓN CORTA *(campo bajo el precio en la ficha de tienda)*
+
+NeoBianacid 14 Comprimidos (Sabor Menta) de Aboca — producto sanitario para reflujo gastroesofágico, ardor de estómago, dificultades digestivas, dispepsia; también prevenció.... Presentación: 14 comprimidos de 1,55 g — frasco; masticar o dejar disolver. Sin receta. Envío a toda la Península en 24-72h.
+
+---
+
+### ▶ 3. DESCRIPCIÓN LARGA *(pestaña "Descripción" en WooCommerce)*
+
+Copia **en este orden** desde la sección 3 de esta ficha:
+
+| Orden | Qué copiar |
+|---|---|
+| 1 | Todo desde **## ¿Qué es NeoBianacid 14 Comprimidos (Sabor Menta)...** hasta el final de "Ventajas" |
+| 2 | Las **10 FAQs** completas (§ 4) |
+| 3 | La **Tabla comparativa** completa (§ 5) |
+
+*(No copies: Análisis, Keywords, Mapa WooCommerce, JSON-LD, Enlazado ni Checklist)*
+
+---
+
+### ▶ 4. CAMPOS SEO *(plugin Yoast / Rank Math / SEOPress)*
+
+| Campo del plugin | Valor a copiar |
+|---|---|
+| **Slug / Enlace permanente** | `salud-digestiva/acidez-reflujo/neobianacid-14-comprimidos-sabor-menta` |
+| **SEO Title** | NeoBianacid 14 comp. — Reflujo y Ardor | Farmacia Online |
+| **Meta Description** | Comprimidos para el reflujo y el ardor de estómago, aptos para el embarazo. NeoBianacid 14 comp. menta · Aboca · Sin receta · Envío 24-72h · 9,95€ |
+| **Focus Keyphrase** | neobianacid comprimidos reflujo acidez sin receta |
+
+> El **H1** NO se escribe aquí — WooCommerce lo genera automáticamente desde el campo "Nombre del producto".
+> Verifica en vista previa que el H1 coincide con lo esperado.
+
+---
+
+### ▶ 5. IMÁGENES
+
+Carpeta: `IMÁGENES/ABOCA/COMPRESSED/⚠ No encontrada para 'NeoBianacid 14 Comprimidos (Sabor Menta)'/`
+
+| Posición en WooCommerce | Archivo a subir | Alt text sugerido |
+|---|---|---|
+| ⚠ Sin imágenes detectadas | Verificar carpeta `⚠ No encontrada para 'NeoBianacid 14 Comprimidos (Sabor Menta)'` | — |
+
+---
+
+### ▶ 6. JSON-LD *(complemento SEO — no sustituye los campos anteriores)*
+
+Pega el bloque completo de la **§ 6** de esta ficha en el plugin Schema (Rank Math / SEOPress)
+o directamente en modo HTML al final de la descripción larga.
+Verifica en: https://search.google.com/test/rich-results
+
+---
+
 ## 3. ELEMENTOS SEO ON PAGE
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🔵 **URL:**
 ```
-/salud/digestivo/neobianacid-comprimidos-reflujo-acidez/
+/salud-digestiva/acidez-reflujo/neobianacid-14-comprimidos-sabor-menta/
 ```
 
 ---
 
 🔵 **Meta Title (59 caracteres):**
 ```
-NeoBianacid 14 comp. — Reflujo y Ardor | Farmacia Muro
+NeoBianacid 14 comp. — Reflujo y Ardor | Farmacia Online
 ```
 *(54 chars ✓)*
 
 ---
 
-🔵 **Meta Description (153 caracteres):**
+🔵 **Meta Description (146 caracteres):**
 ```
-Comprimidos naturales para el reflujo y ardor de estómago. NeoBianacid Aboca 14 comp. menta — 10,90 €. Apto embarazo. Compra sin receta · Envío 24h.
+Comprimidos para el reflujo y el ardor de estómago, aptos para el embarazo. NeoBianacid 14 comp. menta · Aboca · Sin receta · Envío 24-72h · 9,95€
 ```
 
 ---
@@ -82,143 +153,213 @@ NeoBianacid 14 Comprimidos — Reflujo, ardor y acidez con barrera natural prote
 
 🔵 **Descripción del producto (cuerpo completo):**
 
-## ¿Qué es NeoBianacid y para qué sirve?
-
-NeoBianacid es un **producto sanitario de Aboca** en comprimidos para masticar o dejar disolver en la boca, indicado para el tratamiento del **reflujo gastroesofágico** (esa sensación de acidez que sube por el esófago), el **ardor de estómago**, las **dificultades digestivas** y la **dispepsia** (pesadez, dolor o malestar de estómago después de comer). También puede usarse como prevención del ardor en personas que toman AINEs (antiinflamatorios como el ibuprofeno) o que sufren estrés digestivo frecuente.
-
-Su principio activo es **Poliprotect®** (528 mg/comprimido), un complejo exclusivo de Aboca que actúa de forma diferente a los antiácidos clásicos:
-
-- **No suprime el ácido** (como los IBP — inhibidores de bomba de protones como el omeprazol, que reducen el ácido casi a cero).
-- **No neutraliza el ácido de golpe** (como los antiácidos de hidróxido de aluminio/magnesio).
-- **Forma una película viscosa** sobre la mucosa del esófago y el estómago — una barrera protectora que evita que el ácido irrite los tejidos y facilita su recuperación.
-
-Esta diferencia es importante: el estómago necesita ácido para digerir correctamente; suprimir el ácido durante mucho tiempo tiene efectos secundarios (menor absorción de vitamina B12, calcio, magnesio, mayor riesgo de infección intestinal). NeoBianacid *modula* la acidez sin eliminarla.
-
----
-
-## Ingredientes y composición
-
-Por comprimido de 1,55 g:
-
-| Componente | Cantidad | Función |
-|---|---|---|
-| **Polisacáridos LPME** (Malva*, Malvavisco*, Aloe vera*) | 105 mg | Barrera mucoadhesiva, hidratante y protectora |
-| **Limestone** (carbonato cálcico natural) | 423 mg (parte) | Neutralización local leve de la acidez |
-| **Nahcolite** (bicarbonato sódico natural) | (parte de 423 mg) | Neutralización local leve |
-| **Fracción flavonoica LPME** (Manzanilla*, Regaliz*) | 46 mg | Antiinflamatorio suave, antioxidante |
-| Azúcar de caña* + Goma arábiga | — | Excipientes naturales |
-| Aroma Menta | — | Sabor |
-
-*Agricultura biológica certificada · Sin lactosa · Sin gluten · Producto Sanitario CE · Desde 6 años · Apto embarazo y lactancia.
-
----
-
-## ¿Cómo se usa?
-
-**Para síntomas ocasionales:**
+<h2>¿Qué es NeoBianacid y para qué sirve?</h2>
+<p>NeoBianacid es un <strong>producto sanitario de Aboca</strong> en comprimidos para masticar o dejar disolver en la boca, indicado para el tratamiento del <strong>reflujo gastroesofágico</strong> (esa sensación de acidez que sube por el esófago), el <strong>ardor de estómago</strong>, las <strong>dificultades digestivas</strong> y la <strong>dispepsia</strong> (pesadez, dolor o malestar de estómago después de comer). También puede usarse como prevención del ardor en personas que toman AINEs (antiinflamatorios como el ibuprofeno) o que sufren estrés digestivo frecuente.</p>
+<p>Su principio activo es <strong>Poliprotect®</strong> (528 mg/comprimido), un complejo exclusivo de Aboca que actúa de forma diferente a los antiácidos clásicos:</p>
+<ul>
+<li><strong>No suprime el ácido</strong> (como los IBP — inhibidores de bomba de protones como el omeprazol, que reducen el ácido casi a cero).</li>
+<li><strong>No neutraliza el ácido de golpe</strong> (como los antiácidos de hidróxido de aluminio/magnesio).</li>
+<li><strong>Forma una película viscosa</strong> sobre la mucosa del esófago y el estómago — una barrera protectora que evita que el ácido irrite los tejidos y facilita su recuperación.</li>
+</ul>
+<p>Esta diferencia es importante: el estómago necesita ácido para digerir correctamente; suprimir el ácido durante mucho tiempo tiene efectos secundarios (menor absorción de vitamina B12, calcio, magnesio, mayor riesgo de infección intestinal). NeoBianacid <em>modula</em> la acidez sin eliminarla.</p>
+<hr />
+<h2>Ingredientes y composición</h2>
+<p>Por comprimido de 1,55 g:</p>
+<table>
+<thead>
+<tr>
+<th>Componente</th>
+<th>Cantidad</th>
+<th>Función</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Polisacáridos LPME</strong> (Malva<em>, Malvavisco</em>, Aloe vera*)</td>
+<td>105 mg</td>
+<td>Barrera mucoadhesiva, hidratante y protectora</td>
+</tr>
+<tr>
+<td><strong>Limestone</strong> (carbonato cálcico natural)</td>
+<td>423 mg (parte)</td>
+<td>Neutralización local leve de la acidez</td>
+</tr>
+<tr>
+<td><strong>Nahcolite</strong> (bicarbonato sódico natural)</td>
+<td>(parte de 423 mg)</td>
+<td>Neutralización local leve</td>
+</tr>
+<tr>
+<td><strong>Fracción flavonoica LPME</strong> (Manzanilla<em>, Regaliz</em>)</td>
+<td>46 mg</td>
+<td>Antiinflamatorio suave, antioxidante</td>
+</tr>
+<tr>
+<td>Azúcar de caña* + Goma arábiga</td>
+<td>—</td>
+<td>Excipientes naturales</td>
+</tr>
+<tr>
+<td>Aroma Menta</td>
+<td>—</td>
+<td>Sabor</td>
+</tr>
+</tbody>
+</table>
+<p>*Agricultura biológica certificada · Sin lactosa · Sin gluten · Producto Sanitario CE · Desde 6 años · Apto embarazo y lactancia.</p>
+<hr />
+<h2>¿Cómo se usa?</h2>
+<p><strong>Para síntomas ocasionales:</strong>
 - Tomar 1 comprimido cuando aparezcan los síntomas (ardor, reflujo).
-- Masticar o dejar disolver lentamente en la boca.
+- Masticar o dejar disolver lentamente en la boca.</p>
+<p><strong>Para tratamiento:</strong>
+- 1 comprimido <strong>después de cada comida principal</strong> + 1 comprimido <strong>antes de acostarse</strong>.
+- Máximo <strong>8 comprimidos al día</strong>.
+- Indicado también para niños &gt;6 años.</p>
+<blockquote>
+<p><strong>Importante:</strong> Separar la toma de NeoBianacid al menos <strong>2 horas</strong> de medicamentos que se absorben en el estómago (tetraciclinas, quinolonas, etc.), ya que la barrera puede reducir la absorción. El Regaliz está a dosis no hipertensivas pero consultar en hipertensión.</p>
+</blockquote>
+<hr />
+<h2>Ventajas frente a otras opciones</h2>
+<ul>
+<li><strong>Sin bloqueo de ácido</strong>: puede usarse a largo plazo sin los efectos secundarios de los IBP (omeprazol, pantoprazol).</li>
+<li><strong>Mecanismo de barrera</strong>: actúa en el punto exacto donde duele — el esófago y el estómago — en lugar de bloquear la producción desde las células gástricas.</li>
+<li><strong>Apto en embarazo y lactancia</strong>: el omeprazol, el pantoprazol y muchos antiácidos de aluminio/magnesio tienen restricciones durante el embarazo.</li>
+<li><strong>Desde 6 años</strong>: adecuado para toda la familia.</li>
+<li><strong>100 % vegetal y mineral natural, biológico</strong>.</li>
+</ul>
+<hr />
+<h2>Avales y referencias</h2>
+<p>Producto Sanitario CE (CPSP24090CAT). La Malva y el Malvavisco tienen monografías en la <strong>EMA</strong> para la protección de mucosas irritadas. La Manzanilla está avalada por la <strong>EMA</strong> como antiinflamatorio suave. Fabricado por <strong>Aboca</strong> con certificación biológica.</p>
+<hr />
+<h2>FAQs - Preguntas y Respuestas</h2>
+<h3>¿Para qué sirve NeoBianacid?</h3>
+<p>NeoBianacid son comprimidos para el reflujo gastroesofágico, el ardor de estómago, la dispepsia y las dificultades digestivas. Su principio activo Poliprotect® forma una barrera protectora sobre la mucosa del esófago y estómago. Es un producto sanitario de Aboca, sin receta, apto desde 6 años y durante el embarazo.</p>
+<hr />
+<h3>¿Cuál es la diferencia entre NeoBianacid y omeprazol?</h3>
+<p>Son mecanismos completamente distintos. El <strong>omeprazol</strong> es un medicamento que bloquea las células del estómago para que produzcan menos ácido. <strong>NeoBianacid</strong> no bloquea el ácido: forma una barrera física sobre la mucosa para que el ácido no la irrite. El omeprazol es más potente en casos graves; NeoBianacid es preferible en reflujo leve-moderado porque no elimina el ácido (que también es necesario para digerir).</p>
+<hr />
+<h3>¿NeoBianacid se puede tomar durante el embarazo?</h3>
+<p>Sí. La composición de NeoBianacid —plantas biológicas, minerales naturales— no presenta contraindicaciones documentadas durante el embarazo o la lactancia. Es una opción segura para el ardor de estómago en gestantes, cuando el omeprazol o los antiácidos de aluminio se evitan por precaución.</p>
+<hr />
+<h3>¿Cuándo hay que tomar NeoBianacid — antes o después de comer?</h3>
+<p>Para <strong>síntomas ocasionales</strong>: en cuanto aparece el ardor o el reflujo. Para <strong>tratamiento</strong>: 1 comprimido después de cada comida + 1 antes de acostarse. El de la noche es importante para prevenir el reflujo nocturno al tumbarse.</p>
+<hr />
+<h3>¿Se puede comprar NeoBianacid sin receta?</h3>
+<p>Sí. Es un producto sanitario de venta libre. Disponible en nuestra farmacia con envío a toda España. Precio de la versión 14 comprimidos (menta): 9,95 €.</p>
+<hr />
+<h3>¿Qué diferencia hay entre NeoBianacid sabor menta y sabor limón?</h3>
+<p>La fórmula (Poliprotect®) es exactamente la misma — solo cambia el aroma natural: menta o limón. La elección es puramente de preferencia de sabor personal.</p>
+<hr />
+<h3>¿NeoBianacid interfiere con otros medicamentos?</h3>
+<p>Puede reducir la absorción de algunos medicamentos si se toman al mismo tiempo (especialmente tetraciclinas y quinolonas, ya que la barrera física puede retenerlos). Dejar al menos <strong>2 horas</strong> entre NeoBianacid y cualquier otro medicamento.</p>
+<hr />
+<h3>¿NeoBianacid sirve para la gastritis?</h3>
+<p>Puede ayudar a aliviar los síntomas de la gastritis (ardor, dolor de estómago) gracias a su efecto barrera y antiinflamatorio suave. Para gastritis confirmadas, especialmente por H. pylori, es necesario el diagnóstico y tratamiento médico específico.</p>
+<hr />
+<h3>¿Cuánto tiempo se puede tomar NeoBianacid?</h3>
+<p>Al ser un producto de mecanismo fisiológico sin bloqueo hormonal, puede usarse durante períodos prolongados. Para reflujo crónico, consultar con el médico para descartar otras causas.</p>
+<hr />
+<h3>¿Cuánto cuesta NeoBianacid 14 comprimidos?</h3>
+<p>El precio en nuestra farmacia es de <strong>9,95 €</strong> por el frasco de 14 comprimidos (sabor menta). También disponible en 45 comp. (9,95 €), 70 comp. (9,95 €) y en sabor limón en comprimidos y sobres.</p>
+<hr />
+<h2>TABLA COMPARATIVA</h2>
+<h2>Comparativa: NeoBianacid vs tratamientos para el reflujo</h2>
+<table>
+<thead>
+<tr>
+<th>Característica</th>
+<th><strong>NeoBianacid</strong> (Aboca)</th>
+<th>Omeprazol 20 mg (IBP)</th>
+<th>Almax (almagato)</th>
+<th>Gaviscon (alginato)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mecanismo</td>
+<td>Barrera mucoadhesiva (Poliprotect®)</td>
+<td>Bloquea producción de ácido (IBP)</td>
+<td>Neutraliza el ácido</td>
+<td>Barrera de alginato sobre el contenido gástrico</td>
+</tr>
+<tr>
+<td>Suprime el ácido</td>
+<td>❌ No</td>
+<td>✅ Sí</td>
+<td>❌ No (neutraliza)</td>
+<td>❌ No</td>
+</tr>
+<tr>
+<td>Efecto rápido</td>
+<td>✅ Sí (barrera inmediata)</td>
+<td>❌ No (demora horas)</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+</tr>
+<tr>
+<td>Apto embarazo</td>
+<td>✅ Sí</td>
+<td>❌ Precaución</td>
+<td>❌ No (aluminio)</td>
+<td>✅ Generalmente sí</td>
+</tr>
+<tr>
+<td>Uso largo plazo</td>
+<td>✅ Sin restricción conocida</td>
+<td>❌ No recomendado &gt;8 semanas sin control</td>
+<td>Limitado</td>
+<td>Limitado</td>
+</tr>
+<tr>
+<td>Desde qué edad</td>
+<td>6 años</td>
+<td>Adultos (con supervisión niños)</td>
+<td>Adultos</td>
+<td>Adultos</td>
+</tr>
+<tr>
+<td>Sin gluten/lactosa</td>
+<td>✅ Sí</td>
+<td>Verificar</td>
+<td>Verificar</td>
+<td>Verificar</td>
+</tr>
+<tr>
+<td>Sin receta</td>
+<td>✅ Sí</td>
+<td>✅ Sí (≤20 mg)</td>
+<td>✅ Sí</td>
+<td>✅ Sí</td>
+</tr>
+<tr>
+<td>PVP aprox. (14 uds)</td>
+<td><strong>9,95 €</strong></td>
+<td>~5-8 €</td>
+<td>~7-9 €</td>
+<td>~8-11 €</td>
+</tr>
+<tr>
+<td>Valoración farmacéutica</td>
+<td>⭐⭐⭐⭐⭐</td>
+<td>⭐⭐⭐⭐ (s/ supervisión)</td>
+<td>⭐⭐⭐</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td>Disponible nuestra farmacia</td>
+<td>✅ Sí</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><em>Los datos son orientativos y el farmacéutico puede asesorarte sobre la opción más adecuada según tus síntomas. Contáctanos por WhatsApp sin compromiso. Respuesta garantizada por uno de nuestros profesionales en menos de 24 horas.</em></p>
+</blockquote>
+<hr />
 
-**Para tratamiento:**
-- 1 comprimido **después de cada comida principal** + 1 comprimido **antes de acostarse**.
-- Máximo **8 comprimidos al día**.
-- Indicado también para niños >6 años.
-
-> **Importante:** Separar la toma de NeoBianacid al menos **2 horas** de medicamentos que se absorben en el estómago (tetraciclinas, quinolonas, etc.), ya que la barrera puede reducir la absorción. El Regaliz está a dosis no hipertensivas pero consultar en hipertensión.
-
----
-
-## Ventajas frente a otras opciones
-
-- **Sin bloqueo de ácido**: puede usarse a largo plazo sin los efectos secundarios de los IBP (omeprazol, pantoprazol).
-- **Mecanismo de barrera**: actúa en el punto exacto donde duele — el esófago y el estómago — en lugar de bloquear la producción desde las células gástricas.
-- **Apto en embarazo y lactancia**: el omeprazol, el pantoprazol y muchos antiácidos de aluminio/magnesio tienen restricciones durante el embarazo.
-- **Desde 6 años**: adecuado para toda la familia.
-- **100 % vegetal y mineral natural, biológico**.
-
----
-
-## Avales y referencias
-
-Producto Sanitario CE (CPSP24090CAT). La Malva y el Malvavisco tienen monografías en la **EMA** para la protección de mucosas irritadas. La Manzanilla está avalada por la **EMA** como antiinflamatorio suave. Fabricado por **Aboca** con certificación biológica.
-
----
-
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-## 4. FAQs (10 preguntas)
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-### ¿Para qué sirve NeoBianacid?
-NeoBianacid son comprimidos para el reflujo gastroesofágico, el ardor de estómago, la dispepsia y las dificultades digestivas. Su principio activo Poliprotect® forma una barrera protectora sobre la mucosa del esófago y estómago. Es un producto sanitario de Aboca, sin receta, apto desde 6 años y durante el embarazo.
-
----
-
-### ¿Cuál es la diferencia entre NeoBianacid y omeprazol?
-Son mecanismos completamente distintos. El **omeprazol** es un medicamento que bloquea las células del estómago para que produzcan menos ácido. **NeoBianacid** no bloquea el ácido: forma una barrera física sobre la mucosa para que el ácido no la irrite. El omeprazol es más potente en casos graves; NeoBianacid es preferible en reflujo leve-moderado porque no elimina el ácido (que también es necesario para digerir).
-
----
-
-### ¿NeoBianacid se puede tomar durante el embarazo?
-Sí. La composición de NeoBianacid —plantas biológicas, minerales naturales— no presenta contraindicaciones documentadas durante el embarazo o la lactancia. Es una opción segura para el ardor de estómago en gestantes, cuando el omeprazol o los antiácidos de aluminio se evitan por precaución.
-
----
-
-### ¿Cuándo hay que tomar NeoBianacid — antes o después de comer?
-Para **síntomas ocasionales**: en cuanto aparece el ardor o el reflujo. Para **tratamiento**: 1 comprimido después de cada comida + 1 antes de acostarse. El de la noche es importante para prevenir el reflujo nocturno al tumbarse.
-
----
-
-### ¿Se puede comprar NeoBianacid sin receta?
-Sí. Es un producto sanitario de venta libre. Disponible en Farmacia Muro con envío a toda España. Precio de la versión 14 comprimidos (menta): 10,90 €.
-
----
-
-### ¿Qué diferencia hay entre NeoBianacid sabor menta y sabor limón?
-La fórmula (Poliprotect®) es exactamente la misma — solo cambia el aroma natural: menta o limón. La elección es puramente de preferencia de sabor personal.
-
----
-
-### ¿NeoBianacid interfiere con otros medicamentos?
-Puede reducir la absorción de algunos medicamentos si se toman al mismo tiempo (especialmente tetraciclinas y quinolonas, ya que la barrera física puede retenerlos). Dejar al menos **2 horas** entre NeoBianacid y cualquier otro medicamento.
-
----
-
-### ¿NeoBianacid sirve para la gastritis?
-Puede ayudar a aliviar los síntomas de la gastritis (ardor, dolor de estómago) gracias a su efecto barrera y antiinflamatorio suave. Para gastritis confirmadas, especialmente por H. pylori, es necesario el diagnóstico y tratamiento médico específico.
-
----
-
-### ¿Cuánto tiempo se puede tomar NeoBianacid?
-Al ser un producto de mecanismo fisiológico sin bloqueo hormonal, puede usarse durante períodos prolongados. Para reflujo crónico, consultar con el médico para descartar otras causas.
-
----
-
-### ¿Cuánto cuesta NeoBianacid 14 comprimidos?
-El precio en Farmacia Muro es de **10,90 €** por el frasco de 14 comprimidos (sabor menta). También disponible en 45 comp. (19,90 €), 70 comp. (24,90 €) y en sabor limón en comprimidos y sobres.
-
----
-
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-## 5. TABLA COMPARATIVA
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-## Comparativa: NeoBianacid vs tratamientos para el reflujo
-
-| Característica | **NeoBianacid** (Aboca) | Omeprazol 20 mg (IBP) | Almax (almagato) | Gaviscon (alginato) |
-|---|---|---|---|---|
-| Mecanismo | Barrera mucoadhesiva (Poliprotect®) | Bloquea producción de ácido (IBP) | Neutraliza el ácido | Barrera de alginato sobre el contenido gástrico |
-| Suprime el ácido | ❌ No | ✅ Sí | ❌ No (neutraliza) | ❌ No |
-| Efecto rápido | ✅ Sí (barrera inmediata) | ❌ No (demora horas) | ✅ Sí | ✅ Sí |
-| Apto embarazo | ✅ Sí | ❌ Precaución | ❌ No (aluminio) | ✅ Generalmente sí |
-| Uso largo plazo | ✅ Sin restricción conocida | ❌ No recomendado >8 semanas sin control | Limitado | Limitado |
-| Desde qué edad | 6 años | Adultos (con supervisión niños) | Adultos | Adultos |
-| Sin gluten/lactosa | ✅ Sí | Verificar | Verificar | Verificar |
-| Sin receta | ✅ Sí | ✅ Sí (≤20 mg) | ✅ Sí | ✅ Sí |
-| PVP aprox. (14 uds) | **10,90 €** | ~5-8 € | ~7-9 € | ~8-11 € |
-| Valoración farmacéutica | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ (s/ supervisión) | ⭐⭐⭐ | ⭐⭐⭐⭐ |
-| Disponible Farmacia Muro | ✅ Sí | ❌ | ❌ | ❌ |
-
----
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ## 6. JSON-LD (listo para copiar)
@@ -240,7 +381,7 @@ El precio en Farmacia Muro es de **10,90 €** por el frasco de 14 comprimidos (
       "offers": {
         "@type": "Offer",
         "priceCurrency": "EUR",
-        "price": "10.90",
+        "price": "9.95",
         "availability": "https://schema.org/InStock",
         "seller": {
           "@type": "Pharmacy",
@@ -273,7 +414,7 @@ El precio en Farmacia Muro es de **10,90 €** por el frasco de 14 comprimidos (
           "name": "¿Se puede comprar NeoBianacid sin receta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sí. Es un producto sanitario de venta libre. Precio en Farmacia Muro: 10,90 € (14 comp. sabor menta). Envío a toda España."
+            "text": "Sí. Es un producto sanitario de venta libre. Precio en nuestra farmacia: 9,95 € (14 comp. sabor menta). Envío a toda la Península."
           }
         },
         {
@@ -305,7 +446,7 @@ El precio en Farmacia Muro es de **10,90 €** por el frasco de 14 comprimidos (
           "@type": "ListItem",
           "position": 3,
           "name": "NeoBianacid 14 Comprimidos",
-          "item": "https://farmaciacarmenvalle.com/salud/digestivo/neobianacid-comprimidos-reflujo-acidez/"
+          "item": "https://farmaciacarmenvalle.com/salud-digestiva/acidez-reflujo/neobianacid-14/"
         }
       ]
     }
@@ -323,10 +464,10 @@ El precio en Farmacia Muro es de **10,90 €** por el frasco de 14 comprimidos (
 | Tipo de enlace | URL sugerida | Anchor text recomendado |
 |---|---|---|
 | Categoría padre | `/salud/digestivo/` | Salud digestiva |
-| Variante 45 comp. | `/salud/digestivo/neobianacid-45-comprimidos/` | NeoBianacid 45 comprimidos — tratamiento mensual |
-| Variante 70 comp. | `/salud/digestivo/neobianacid-70-comprimidos/` | NeoBianacid 70 comprimidos — formato ahorro |
-| Variante limón | `/salud/digestivo/neobianacid-limon-14-comprimidos/` | NeoBianacid Limón 14 comprimidos |
-| Variante sobres | `/salud/digestivo/neobianacid-limon-20-sobres/` | NeoBianacid Limón 20 Sobres |
+| Variante 45 comp. | `/salud-digestiva/acidez-reflujo/neobianacid-45/` | NeoBianacid 45 comprimidos — tratamiento mensual |
+| Variante 70 comp. | `/salud-digestiva/acidez-reflujo/neobianacid-70/` | NeoBianacid 70 comprimidos — formato ahorro |
+| Variante limón | `/salud-digestiva/acidez-reflujo/neobianacid-limon-14/` | NeoBianacid Limón 14 comprimidos |
+| Variante sobres | `/salud-digestiva/acidez-reflujo/neobianacid-limon-sobres/` | NeoBianacid Limón 20 Sobres |
 
 ---
 
@@ -355,6 +496,6 @@ El precio en Farmacia Muro es de **10,90 €** por el frasco de 14 comprimidos (
 - [x] Precio y disponibilidad explícitos
 
 ### Conversión
-- [x] Precio (10,90 €) visible
+- [x] Precio (9,95 €) visible
 - [x] Enlace a todos los formatos de la familia NeoBianacid
 - [x] "Sin receta + apto embarazo" — dos diferenciadores de compra online
