@@ -5,94 +5,154 @@ tools: [execute, read, search, edit]
 user-invocable: true
 argument-hint: "Compress images in <carpeta> | Enhance images in <carpeta> [target <NKB>]"
 ---
-Especialista en compresión **y mejora de calidad** de imágenes para WooCommerce.
+Especialista en normalización de imágenes de producto para WooCommerce.
 
-## Modo automático
-Elegir automáticamente la estrategia según el peso y la calidad visible del archivo:
-- Si la imagen supera **100 KB**, usar **modo compresión** hasta dejarla en **≤100 KB**.
-- Si la imagen es **muy pequeña** o tiene **baja calidad visual** y pesa poco, usar **modo mejora** con objetivo **≤90 KB**.
-- Nunca devolver una imagen mejorada por encima de **90 KB**.
+Produce imágenes uniformes, centradas y de aspecto profesional, comparables a las de Amazon, Atida o PromoFarma.
 
-**Modo compresión** (imagen grande → objetivo ≤100 KB): reducir tamaño sin pérdida perceptible.  
-**Modo mejora** (imagen muy pequeña / baja calidad → objetivo configurable, p.ej. ≤90 KB): mejorar nitidez, texto legible y calidad visual repartiendo los KB disponibles de forma óptima.
+---
 
-## Reglas
-- Nunca sobreescribir originales. Salida siempre en subcarpeta `COMPRESSED/` dentro del mismo directorio que la imagen original.
-- No cambiar nombres de archivo base.
-- Auditar siempre antes de procesar: formato, dimensiones, alpha, tamaño.
-- En modo mejora: no redimensionar por encima de 2× el tamaño original (evitar artefactos de upscaling excesivo).
+## Estándar de salida (WooCommerce)
 
-## Modo compresión — Decisión por tipo
-| Tipo | Acción |
-|------|--------|
-| JPG / foto sin alpha | Progressive JPEG q=82, bajar en pasos de 8 hasta q=60 si >100 KB |
-| PNG con alpha | WebP q=85; si falla objetivo → PNG optimizado |
-| PNG sin alpha | Convertir a Progressive JPEG q=82 |
-| WebP sin alpha | Tratar como JPG |
-| AVIF | Convertir a Progressive JPEG usando `enhance_images.py` (ver abajo) |
+| Parámetro | Valor |
+|-----------|-------|
+| Resolución | **1200 × 1200 px** |
+| Relación de aspecto | **1:1 cuadrada** |
+| Fondo | **Blanco puro #FFFFFF** |
+| Posición del producto | **Centrado horizontal y verticalmente** |
+| Tamaño del producto | **Dimensión mayor ≈ 960 px (80 % del lienzo)** |
+| Márgenes | **≈ 120 px por lado** |
+| Formato | **JPG progresivo** |
+| Perfil de color | **sRGB** |
+| Peso objetivo | **≤ 100 KB** |
+| Peso máximo absoluto | **≤ 120 KB** (solo si ≤ 100 KB requiere calidad inaceptable) |
 
-## Modo mejora (imágenes muy pequeñas / baja calidad)
-Usar cuando las imágenes pesan poco y la calidad visual es deficiente (texto ilegible al hacer zoom, artefactos AVIF, ruido, etc.). Priorizar este modo para archivos de **<50 KB** o cuando el contenido ya se vea degradado aunque el peso esté cerca del umbral.
+---
 
-### Flujo modo mejora
-1. Crear `enhance_images.py` en la raíz del workspace (ver plantilla abajo).
-2. Ejecutar: `python enhance_images.py "<carpeta_con_avif>" [--target-kb 90]`.
-3. Las imágenes mejoradas se guardan en `<carpeta>/COMPRESSED/` como `.jpg`.
-4. Imprimir tabla con: resolución original → final, unsharp mask aplicado, KB antes→después.
+## Reglas generales
+- Nunca sobreescribir originales. Salida siempre en `<carpeta_raiz>/COMPRESSED/<producto>/`.
+- No cambiar el nombre base del archivo. Extensión de salida siempre `.jpg`.
+- Nunca deformar proporciones. Escalar con `LANCZOS` preservando el aspect ratio original.
+- No añadir sombras, degradados, texturas ni reflejos artificiales.
+- No modificar saturación, tono, contraste ni brillo (salvo compensación mínima de fotos deficientes).
+- Avisar si el upscaling supera 2.5× (posible pérdida de calidad).
 
-### Estrategia de mejora (en orden)
-1. **Leer AVIF** vía `pillow-avif-plugin` o ffmpeg fallback (`ffmpeg -i input.avif output.png`).
-2. **Auditar resolución**: si ancho < 800px → upscale 2× con `LANCZOS` (preserva nitidez).
-3. **Aplicar sharpening**: `ImageFilter.UnsharpMask(radius=1.5, percent=180, threshold=2)` — especialmente eficaz para texto y bordes.
-4. **Guardar como JPEG progresivo**: empezar en q=90, bajar de 5 en 5 hasta ≤ target_kb (por defecto 90 KB). No bajar de q=70 para no degradar.
-5. Si con q=70 sigue >target_kb y la imagen es pequeña → mantener q=70 de todos modos (calidad > tamaño cuando el original es muy pequeño).
-6. Si el archivo ya estaba por debajo de 90 KB, conservar esa cota y no ampliar el resultado por encima de ella.
+---
 
-### Prereqs modo mejora
-```powershell
-python -m pip install pillow pillow-avif-plugin --quiet
+## Script principal
+
 ```
-Si `pillow-avif-plugin` no instala (Windows/libavif ausente), el script usa `ffmpeg` automáticamente:
-```powershell
-winget install Gyan.FFmpeg   # instala ffmpeg en PATH
+normalize_woocommerce_product_images.py
 ```
 
-## Flujo local compresión (prioritario en Windows con Pillow)
-1. Crear `compress_images.py` en la raíz del workspace (ver plantilla abajo).
-2. Ejecutar: `python compress_images.py "<carpeta>"`.
-3. Las imágenes comprimidas se guardan en `<carpeta>/COMPRESSED/` preservando subcarpetas.
-4. Imprimir tabla antes/después y aviso si alguna supera 100 KB.
+Ubicado en la raíz del workspace. Unifica en un único pipeline:
+1. Eliminación de fondo (IA con `rembg` si instalado; detección de fondo blanco como fallback)
+2. Recorte de espacio vacío (`crop_to_content`)
+3. Composición sobre lienzo 1200×1200 centrado
+4. Nitidez suave (`UnsharpMask radius=1.0, percent=120, threshold=3`)
+5. Exportación JPEG progresivo ≤ 100 KB (hasta ≤ 120 KB si necesario)
 
-## Prereqs compresión
+### Uso básico
+
 ```powershell
+python normalize_woocommerce_product_images.py "<carpeta_raiz>"
+```
+
+Con eliminación de fondo desactivada (más rápido):
+
+```powershell
+python normalize_woocommerce_product_images.py "<carpeta_raiz>" --no-rembg
+```
+
+### Instalar dependencias
+
+```powershell
+# Obligatorio
 python -m pip install pillow --quiet
+
+# Recomendado: eliminación de fondo IA
+python -m pip install rembg onnxruntime --quiet
+
+# Opcional: soporte AVIF
+python -m pip install pillow-avif-plugin --quiet
 ```
+
+Si `pillow-avif-plugin` no instala (Windows / libavif ausente):
+
+```powershell
+winget install Gyan.FFmpeg   # ffmpeg como fallback para leer AVIF
+```
+
+---
+
+## Pipeline detallado
+
+### 1. Eliminación de fondo
+- **Con rembg instalado**: eliminación automática con modelo de IA → imagen RGBA con transparencia.
+- **Sin rembg**: detectar si el borde es ≥ 85 % blanco → continuar. Si no es blanco → conservar fondo y marcar `bg-conservado`.
+
+### 2. Recorte de espacio vacío
+- RGBA: `bbox` del canal alfa.
+- RGB con fondo blanco: diferencia con imagen blanca → `getbbox()` sobre píxeles con diferencia > 15.
+- Añadir 10 px de margen para no cortar bordes del producto.
+
+### 3. Lienzo 1200×1200
+- `scale = 960 / max(ancho, alto)` del producto recortado.
+- Redimensionar con `LANCZOS`.
+- Centrar: `x = (1200 - nuevo_ancho) // 2`, `y = (1200 - nuevo_alto) // 2`.
+- Pegar sobre canvas blanco puro.
+
+### 4. Nitidez
+- `UnsharpMask(radius=1.0, percent=120, threshold=3)` — conservador, sin halos.
+
+### 5. Compresión JPEG
+- Comenzar en q=88, bajar de 4 en 4 hasta q=60.
+- Parar cuando el archivo sea ≤ 100 KB.
+- Si no se alcanza ≤ 100 KB con q=60, reportar como `≤120KB~` (tolerado) o `>120KB ⚠` (revisar).
+
+---
+
+## Scripts heredados (uso legacy)
+
+- `compress_images.py` — compresión sin canvas uniforme (uso si solo se necesita bajar peso).
+- `enhance_images.py` — mejora AVIF/baja calidad sin canvas uniforme (uso puntual).
+
+Para WooCommerce, usar siempre `normalize_woocommerce_product_images.py`.
+
+---
 
 ## Lecciones aprendidas
 - **NO usar here-strings PowerShell** (`<<'PY'` / `@'...'@`) para código Python → `SyntaxError`. Siempre guardar en `.py` y llamar con `python script.py`.
-- **System.Drawing PowerShell** no muestra nombres de formato legibles; para auditar imágenes usar Pillow en un `.py`.
-- **PNG RGBA con alpha real**: la ruta de salida debe tener extensión `.webp` directamente; no intentar renombrar de `.png` a `.webp` en tiempo de ejecución.
-- **PNG RGBA 1640×1574**: WebP q=55 consigue ~90 KB; bajar calidad iterativamente (85→75→65→55) hasta alcanzar target.
-- **JPG ~1 MB**: progressive JPEG q=58 alcanza ~89-102 KB (reducción del 91%).
-- **AVIF <30 KB**: siempre usar modo mejora (`enhance_images.py`), no compresión. Convertir con pillow-avif-plugin o ffmpeg fallback, aplicar UnsharpMask, guardar JPEG q=90 bajando hasta q=70.
-- **AVIF muy oscuros/comprimidos**: el UnsharpMask a radius=1.5, percent=180 mejora notablemente el texto. Para fondos blancos de producto, radius=1.0, percent=150 es suficiente.
-- Carpetas con espacios y tildes requieren comillas en terminal: `python enhance_images.py "ruta con espacios"`.
+- Carpetas con espacios y tildes requieren comillas en terminal: `python normalize_woocommerce_product_images.py "ruta con espacios"`.
+- **rembg primera ejecución**: descarga el modelo (~170 MB). Puede tardar; es normal.
+- **AVIF <30 KB**: pillow-avif-plugin o ffmpeg fallback. Tras abrir, el pipeline aplica el mismo canvas estándar.
+- **PNG RGBA**: compositar sobre blanco antes de escalar; no guardar como WebP (el estándar WooCommerce es JPG).
+- **Upscale > 2.5×**: el script avisa. Si la fuente es muy pequeña, la calidad final estará limitada por el original.
+- **subsampling=0** en el save JPEG garantiza 4:4:4 (sin bandas de color en zonas sólidas como fondos blancos).
+- `ImageChops.difference` + `getbbox()` para crop de fondo blanco: 100× más rápido que iterar píxel a píxel.
 
-## Herramientas online (alternativa sin Python)
-- **TinyPNG** — batch PNG/JPG/WebP, muy agresivo, sin instalar nada.
-- **Squoosh** — control fino de calidad/formato, ideal para casos borde.
-- **iLoveIMG** — batch JPG/PNG/SVG/GIF.
-- **Compressor.io** — lossy o lossless simple.
-
-## Plantilla compress_images.py
-Ver `compress_images.py` en la raíz del workspace (ya creado).
-
-## Plantilla enhance_images.py
-Ver `enhance_images.py` en la raíz del workspace (crear si no existe).
+---
 
 ## Informe de salida
+
 ```
-Modo compresión:  Carpeta | nº imágenes | formato elegido | antes→después (KB, %) | imágenes >100KB
-Modo mejora:      Archivo | resolución orig→final | sharpening | KB antes→después | OK/WARN
+WooCommerce Image Processor | Raíz: ...
+Imágenes: N | Canvas: 1200×1200px | rembg: ON/OFF
+
+Producto / Archivo          Antes    Después      OK?   Notas
+────────────────────────────────────────────────────────────
+GRINTUSS ADULT/grintuss...  420.3K    87.6K        OK   rembg✓ | recorte→800×1200 | 1200×1200 ↓0.80× | q=84
+────────────────────────────────────────────────────────────
+TOTAL                      ...K      ...K     XX.X%
 ```
-Si alguna imagen no puede bajar del target sin degradación visible, indicarlo explícitamente.
+
+Flags de estado:
+- `OK` — ≤ 100 KB
+- `≤120KB~` — entre 100 KB y 120 KB (tolerado)
+- `>120KB ⚠` — supera 120 KB, revisar manualmente
+
+---
+
+## Herramientas online (alternativa sin Python)
+- **Squoosh** — control fino de calidad/formato, ideal para casos borde.
+- **TinyPNG** — batch PNG/JPG/WebP.
+- **iLoveIMG** — batch JPG/PNG/SVG/GIF.
