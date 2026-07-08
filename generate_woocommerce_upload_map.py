@@ -1,12 +1,12 @@
 """
-generate_woo_maps.py
+generate_woocommerce_upload_map.py
 Genera el bloque MAPA WOOCOMMERCE con valores reales (copy-paste directo)
 para fichas de cualquier laboratorio en FICHAS_SEO/<LAB>/.
 
 Uso:
-  python generate_woo_maps.py                    # procesa todos los labs
-  python generate_woo_maps.py --lab ABOCA        # solo un laboratorio
-  python generate_woo_maps.py --lab ABOCA --lab LACER  # varios labs
+    python generate_woocommerce_upload_map.py                    # procesa todos los labs
+    python generate_woocommerce_upload_map.py --lab ABOCA        # solo un laboratorio
+    python generate_woocommerce_upload_map.py --lab ABOCA --lab LACER  # varios labs
 
 SKU: se lee del campo "SKU / Código Nacional" en la tabla de PASO 1 del MD.
      Fallback: FICHAS_SEO/<LAB>/sku_map.json  (clave = nombre de archivo .md)
@@ -115,7 +115,7 @@ def desc_corta(nombre, lab, tipo_reg, para_que, formato):
     pq = para_que.split('.')[0].rstrip(',').strip()
     if len(pq) > 100:
         pq = pq[:97] + "..."
-    return f"{nombre} de {lab} — {tipo_s} para {pq.lower()}. Presentación: {formato}. Sin receta. Envío a toda España en 24-72h."
+    return f"{nombre} de {lab} — {tipo_s} para {pq.lower()}. Presentación: {formato}. Sin receta. Envío a toda la Península en 24-72h."
 
 # ── Carga de SKU fallback desde JSON ─────────────────────────────────────────
 
