@@ -1,30 +1,35 @@
-﻿SKU;NOMBRE_PRODUCTO;PVP;PRECIO_COMPRA;UNIDADES;MARGEN;SLUG
-203716;ALIVIOLAS FISIOLAX 27 COMPRIMIDOS;10,95;6,04;;;salud-digestiva/estrenimiento/aliviolas-fisiolax-27-comprimidos
-203717;ALIVIOLAS FISIOLAX 45 COMPRIMIDOS;12,95;7,09;;;salud-digestiva/estrenimiento/aliviolas-fisiolax-45-comprimidos
-204703;ALIVIOLAS FISIOLAX 90 COMPRIMIDOS;19,95;10,76;;;salud-digestiva/estrenimiento/aliviolas-fisiolax-90-comprimidos
-221562;CARBON VEGETAL;13,95;;;;salud-digestiva/hinchazon-y-gases/carbon-vegetal-90-comprimidos
-182752;COLIGAS FAST 50 CÁPSULAS;18,95;;;;salud-digestiva/hinchazon-y-gases/coligas-fast-50-capsulas
-348561;FINOCARBO PLUS 50 CÁPSULAS;19,95;;;;salud-digestiva/hinchazon-y-gases/finocarbo-plus-50-capsulas
-348560;FINOCARBO PLUS TISANA;10,95;;;;salud-digestiva/hinchazon-y-gases/finocarbo-plus-tisana-20-bolsitas
-195023;FITONASAL PEDIATRIC;15,95;;;;sistema-inmune/gripe-resfriado/fitonasal-pediatric-spray-125-ml
-197803;FITONASAL SPRAY CONCENTRADO;12,95;;;;sistema-inmune/gripe-resfriado/fitonasal-spray-concentrado-30-ml
-169295;FITOSTILL;13,50;;;;cuidado-ocular/ojos-secos/fitostill-plus-ampollas
-186393;GOLAMIR COMPRIMIDOS;10,95;;;;sistema-inmune/gripe-resfriado/golamir-2act-comprimidos
-180466;GRINTUSS ADULT JARABE;14,95;;;;sistema-inmune/gripe-resfriado/grintuss-adult-jarabe
-180465;GRINTUSS PEDIATRIC JARABE;14,95;;;;sistema-inmune/gripe-resfriado/grintuss-pediatric-jarabe
-187986;LENODIAR ADULT 20 CÁPSULAS;14,95;;;;salud-digestiva/diarrea/lenodiar-adult-capsulas
-186620;LENODIAR PEDIATRIC SOBRES;15,95;;;;bebes-mamas/higiene-bebe/lenodiar-pediatric-sobres
-179461;LYNFASE ADELGACCIÓN TISANA;10,95;;;;control-peso/lynfase-tisana-drenante
-169285;MELILAX PEDIATRIC MICROENEMAS;10,95;6,95;;;bebes-mamas/colicos-bebe/melilax-pediatric-microenemas
-215873;NEOBIANACID 14 COMPRIMIDOS;9,95;6,37;;;salud-digestiva/acidez-reflujo/neobianacid-14
-215874;NEOBIANACID 45 COMPRIMIDOS;18,95;11,63;;;salud-digestiva/acidez-reflujo/neobianacid-45
-219594;NEOBIANACID 70 COMPRIMIDOS;23,95;14,56;;;salud-digestiva/acidez-reflujo/neobianacid-70
-172609;NEOBIANACID LIMÓN 14 COMPRIMIDOS;9,95;6,37;;;salud-digestiva/acidez-reflujo/neobianacid-limon-14
-220898;NEOBIANACID LIMÓN 20 SOBRES;13,95;8,70;;;salud-digestiva/acidez-reflujo/neobianacid-limon-sobres
-172610;NEOBIANACID LIMÓN 45 COMPRIMIDOS;18,95;11,63;;;salud-digestiva/acidez-reflujo/neobianacid-limon-45
-208484;NEOBIANACID LIMÓN 70 COMPRIMIDOS;23,95;14,56;;;salud-digestiva/acidez-reflujo/neobianacid-limon-70
-177778;NEOFITOROID BIOPOMADA;13,95;8,50;;;salud-intima/higiene-intima/neofitoroid-biopomada
-182504;NEOFITOROID CÁPSULAS;20,95;12,57;;;piernas-cansadas//neofitoroid-capsulas
-197609;OROBEN COLUTORIO ORAL;13,95;;;;botiquin-primeros-auxilios/antisepticos/oroben-colutorio
-153978;FISIOVEN BIOGEL 100ML;17,95;;;;piernas-cansadas/cremas-piernas/fisioven-biogel
-156647;FISIOVEN PLUS 50 CAPS;22,95;;;;piernas-cansadas//fisioven-plus-capsulas
+﻿SKU;NOMBRE_PRODUCTO;PVP;PRECIO_COMPRA;UNIDADES;STOCK;CADUCIDAD;MARGEN;SLUG
+203716;ALIVIOLAS FISIOLAX 27 COMPRIMIDOS;10,95;6,38;;10;05/2029;41,74;salud-digestiva/estrenimiento/aliviolas-fisiolax-27-comprimidos
+203717;ALIVIOLAS FISIOLAX 45 COMPRIMIDOS;12,95;7,49;;12;04/2029;42,16;salud-digestiva/estrenimiento/aliviolas-fisiolax-45-comprimidos
+204703;ALIVIOLAS FISIOLAX 90 COMPRIMIDOS;19,95;11,26;;10;05/2029;43,56;salud-digestiva/estrenimiento/aliviolas-fisiolax-90-comprimidos
+221562;CARBON VEGETAL;13,95;9,62;;4;01/2029;31,04;salud-digestiva/hinchazon-y-gases/carbon-vegetal-90-comprimidos
+182752;COLIGAS FAST 50 CÁPSULAS;18,95;10,81;;12;04/2029;42,96;salud-digestiva/hinchazon-y-gases/coligas-fast-50-capsulas
+348561;FINOCARBO PLUS 50 CÁPSULAS;10,95;6,55;;6;02/2029;40,18;salud-digestiva/hinchazon-y-gases/finocarbo-plus-50-capsulas
+348560;FINOCARBO PLUS TISANA;19,95;12,15;;22;02/2029;39,10;salud-digestiva/hinchazon-y-gases/finocarbo-plus-tisana-20-bolsitas
+195023;FITONASAL PEDIATRIC;15,95;10,76;;4;02/2027;32,71;sistema-inmune/gripe-resfriado/fitonasal-pediatric-spray-125-ml
+197803;FITONASAL SPRAY CONCENTRADO;12,95;9,59;;5;04/2028;25,95;sistema-inmune/gripe-resfriado/fitonasal-spray-concentrado-30-ml
+169295;FITOSTILL;13,50;9,73;;6;10/2028;27,93;cuidado-ocular/ojos-secos/fitostill-plus-ampollas
+186393;GOLAMIR COMPRIMIDOS;10,95;7,97;;3;12/2028;27,21;sistema-inmune/gripe-resfriado/golamir-2act-comprimidos
+180466;GRINTUSS ADULT JARABE;14,95;11,31;;8;05/2028;24,35;sistema-inmune/gripe-resfriado/grintuss-adult-jarabe
+180465;GRINTUSS PEDIATRIC JARABE;14,95;11,31;;7;04/2028;24,35;sistema-inmune/gripe-resfriado/grintuss-pediatric-jarabe
+187986;LENODIAR ADULT 20 CÁPSULAS;14,95;8,52;;19;04/2029;43,01;salud-digestiva/diarrea/lenodiar-adult-capsulas
+186620;LENODIAR PEDIATRIC SOBRES;15,95;10,93;;5;11/2028;31,47;bebes-mamas/higiene-bebe/lenodiar-pediatric-sobres
+179461;LYNFASE ADELGACCIÓN TISANA;10,95;4,58;;2;10/2028;58,17;control-peso/lynfase-tisana-drenante
+169285;MELILAX PEDIATRIC MICROENEMAS;10,95;6,60;;12;08/2028;39,73;bebes-mamas/colicos-bebe/melilax-pediatric-microenemas
+215873;NEOBIANACID 14 COMPRIMIDOS;9,95;5,96;;19;04/2029;40,10;salud-digestiva/acidez-reflujo/neobianacid-14
+215874;NEOBIANACID 45 COMPRIMIDOS;18,95;11,12;;14;05/2029;41,32;salud-digestiva/acidez-reflujo/neobianacid-45
+219594;NEOBIANACID 70 COMPRIMIDOS;23,95;14,56;;7;01/2029;39,21;salud-digestiva/acidez-reflujo/neobianacid-70
+172609;NEOBIANACID LIMÓN 14 COMPRIMIDOS;9,95;6,05;;12;04/2029;39,20;salud-digestiva/acidez-reflujo/neobianacid-limon-14
+220898;NEOBIANACID LIMÓN 20 SOBRES;13,95;8,70;;6;10/2028;37,63;salud-digestiva/acidez-reflujo/neobianacid-limon-sobres
+172610;NEOBIANACID LIMÓN 45 COMPRIMIDOS;18,95;11,08;;13;04/2029;41,53;salud-digestiva/acidez-reflujo/neobianacid-limon-45
+208484;NEOBIANACID LIMÓN 70 COMPRIMIDOS;23,95;13,92;;13;04/2029;41,88;salud-digestiva/acidez-reflujo/neobianacid-limon-70
+177778;NEOFITOROID BIOPOMADA;13,95;8,14;;18;02/2029;41,65;salud-intima/higiene-intima/neofitoroid-biopomada
+182504;NEOFITOROID CÁPSULAS;20,95;12,57;;3;02/2029;40,00;piernas-cansadas/neofitoroid-capsulas
+197609;OROBEN COLUTORIO ORAL;13,95;9,60;;4;02/2028;31,18;botiquin-primeros-auxilios/antisepticos/oroben-colutorio
+153978;FISIOVEN BIOGEL 100ML;17,95;12,70;;2;05/2027;29,25;piernas-cansadas/cremas-piernas/fisioven-biogel
+156647;FISIOVEN PLUS 50 CAPS;22,95;15,40;;1;02/2029;32,89;piernas-cansadas/fisioven-plus-capsulas
+225670;ALIVIOLAS SOFT 14 SOBRES 3,8 G SABOR PIÑA;13,95;9,80;;5;04/2029;29,75;salud-digestiva/estrenimiento/aliviolas-soft-14-sobres
+224992;GASTRODIGER 1 ENVASE 180 G;13,95;9,45;;12;10/2028;32,26;salud-digestiva/gastrodiger-jarabe
+169283;MELILAX 6 MICROENEMAS 10 G;10,95;6,24;;7;09/2028;43,01;salud-digestiva/estrenimiento/melilax-6-microenemas
+221277;VITAMIN C NATURCOMPLEX 14 COMPRIMIDOS;9,95;8,00;;4;03/2028;19,60;complementos-alimenticios/vitamina-c/vitamin-c-naturcomplex-14-comprimidos
+221278;VITAMIN C NATURCOMPLEX 30 COMPRIMIDOS;17,95;13,50;;2;06/2028;24,79;complementos-alimenticios/vitamina-c/vitamin-c-naturcomplex-30-comprimidos
