@@ -18,11 +18,10 @@ Uso:
   Salida: <carpeta_raiz>/COMPRESSED/<producto>/
 
 Dependencias obligatorias:
-  pip install pillow
+    uv sync
 
 Dependencias opcionales (recomendadas):
-  pip install rembg onnxruntime     # eliminación de fondo por IA
-  pip install pillow-avif-plugin    # lectura de archivos .avif
+    uv sync --extra images             # eliminación de fondo por IA + AVIF
 """
 import sys
 import io
@@ -288,7 +287,7 @@ def main():
 
     if use_rembg and remove_fn is None:
         print('INFO: rembg no instalado → el fondo no se elimina automáticamente.')
-        print('      Para eliminación de fondo IA: pip install rembg onnxruntime\n')
+        print('      Para eliminación de fondo IA: uv sync --extra images\n')
 
     if args.output_dir:
         compressed_root = Path(args.output_dir).resolve()

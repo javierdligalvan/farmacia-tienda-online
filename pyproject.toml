@@ -1,0 +1,21 @@
+# Fuente de verdad de dependencias: pyproject.toml
+# # Para exportar el archivo requirements.txt desde uv:
+# uv export --format requirements.txt --no-dev > requirements.txt
+
+[project]
+name = "farmacia-muro-tools"
+version = "0.1.0"
+description = "Herramientas internas para el flujo WooCommerce de Farmacia Muro"
+requires-python = ">=3.10"
+dependencies = [
+  "Pillow>=10.0.0",
+  "PyMuPDF>=1.23.0",
+  "markitdown[pdf,docx,pptx]>=0.1.6",
+]
+
+[project.optional-dependencies]
+images = [
+  "rembg>=2.0.0",
+  "onnxruntime>=1.17.0",
+  "pillow-avif-plugin>=1.4.0",
+]

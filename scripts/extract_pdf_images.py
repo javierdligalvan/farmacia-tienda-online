@@ -15,7 +15,7 @@ Uso:
   python extract_pdf_images.py "<carpeta_con_pdfs>"
 
 Dependencias:
-  pip install pymupdf
+    uv sync
 
 Nota:
   - Sólo extrae imágenes *embebidas* en el PDF (XObject de tipo Image).
@@ -33,7 +33,7 @@ try:
     import fitz  # PyMuPDF
 except ImportError:
     print("ERROR: PyMuPDF no está instalado.")
-    print("Instálalo con:  pip install pymupdf")
+    print("Instálalo con:  uv sync")
     sys.exit(1)
 
 

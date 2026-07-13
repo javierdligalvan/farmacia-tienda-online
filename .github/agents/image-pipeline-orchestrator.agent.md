@@ -115,7 +115,7 @@ IMÁGENES WEB\{LAB}\
 
 Si el script falla con `pymupdf no instalado`:
 ```powershell
-pip install pymupdf
+uv sync
 ```
 Y volver a ejecutar.
 
@@ -137,18 +137,18 @@ DESTINO = C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmaci
 ### B6. Ejecutar normalización
 
 Preguntar: *"¿Quieres activar la eliminación de fondo con IA (rembg)? Recomendado si los fondos no son blancos."*
-
+uv run python "C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmacia\FARMACIA MURO\scripts\normalize_woocommerce_product_images.py" "<carpeta_origen>" --output-dir "<DESTINO>"
 Para lotes grandes, procesar la normalización en tandas pequeñas usando `--offset` y `--max-images` para no superar límites de ejecución. Recomendación operativa: bloques de 100 a 250 imágenes, ajustando según el tamaño real de los archivos.
 
 ```powershell
-python "C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmacia\FARMACIA MURO\normalize_woocommerce_product_images.py" "<EXTRACCIÓN>" --output-dir "<DESTINO>"
+uv run python "C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmacia\FARMACIA MURO\scripts\normalize_woocommerce_product_images.py" "<EXTRACCIÓN>" --output-dir "<DESTINO>"
 ```
 
 Ejemplo por tandas:
 
 ```powershell
-python "C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmacia\FARMACIA MURO\scripts\normalize_woocommerce_product_images.py" "<EXTRACCIÓN>" --output-dir "<DESTINO>" --no-rembg --offset 0 --max-images 200
-python "C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmacia\FARMACIA MURO\scripts\normalize_woocommerce_product_images.py" "<EXTRACCIÓN>" --output-dir "<DESTINO>" --no-rembg --offset 200 --max-images 200
+uv run python "C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmacia\FARMACIA MURO\scripts\normalize_woocommerce_product_images.py" "<EXTRACCIÓN>" --output-dir "<DESTINO>" --no-rembg --offset 0 --max-images 200
+uv run python "C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmacia\FARMACIA MURO\scripts\normalize_woocommerce_product_images.py" "<EXTRACCIÓN>" --output-dir "<DESTINO>" --no-rembg --offset 200 --max-images 200
 ```
 
 Cuando un lote grande ya esté en marcha, evitar mensajes intermedios del tipo "sigo con otro lote"; solo reportar el avance cuando termine un bloque significativo o se detecte una incidencia.
@@ -166,13 +166,13 @@ Confirmar al usuario:
 
 ```powershell
 # Extracción PDF
-pip install pymupdf
+uv sync
 
 # Normalización imágenes
-pip install pillow
+uv sync
 
 # Opcional: eliminación de fondo IA
-pip install rembg onnxruntime
+uv sync --extra images
 ```
 
 ---
