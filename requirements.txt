@@ -1,0 +1,18 @@
+# Dependencias del pipeline de imágenes y PDFs
+#
+# Instalación mínima para ejecutar los scripts del proyecto:
+#   pip install -r requirements.txt
+#
+# Dependencias opcionales:
+#   rembg + onnxruntime -> eliminación de fondo con IA
+#   pillow-avif-plugin  -> lectura de imágenes AVIF
+
+Pillow>=10.0.0
+PyMuPDF>=1.23.0
+
+# Opcionales, recomendadas solo si se quiere eliminación de fondo con IA
+rembg>=2.0.0
+onnxruntime>=1.17.0
+
+# Opcional, útil si aparecen imágenes AVIF en el flujo
+pillow-avif-plugin>=1.4.0
