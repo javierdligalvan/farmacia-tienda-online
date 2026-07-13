@@ -258,6 +258,13 @@ def main():
     parser.add_argument('folder', help='Carpeta raíz con subcarpetas de producto')
     parser.add_argument('--no-rembg', action='store_true',
                         help='Desactiva rembg aunque esté instalado (más rápido, sin eliminación de fondo IA)')
+    parser.add_argument(
+        '--output-dir',
+        metavar='DIRECTORIO',
+        help='Directorio de salida para las imágenes normalizadas '
+             '(por defecto: <folder>/COMPRESSED). '
+             'Se crearán subcarpetas por producto dentro de este directorio.'
+    )
     args = parser.parse_args()
 
     root = Path(args.folder).resolve()
@@ -272,8 +279,11 @@ def main():
         print('INFO: rembg no instalado → el fondo no se elimina automáticamente.')
         print('      Para eliminación de fondo IA: pip install rembg onnxruntime\n')
 
-    compressed_root = root / 'COMPRESSED'
-    compressed_root.mkdir(exist_ok=True)
+    if args.output_dir:
+        compressed_root = Path(args.output_dir).resolve()
+    else:
+        compressed_root = root / 'COMPRESSED'
+    compressed_root.mkdir(parents=True, exist_ok=True)
 
     # Recopilar tareas (ignorar carpeta COMPRESSED)
     tasks: list = []

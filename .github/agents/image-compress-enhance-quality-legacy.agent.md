@@ -57,11 +57,25 @@ Ubicado en la raíz del workspace. Unifica en un único pipeline:
 python normalize_woocommerce_product_images.py "<carpeta_raiz>"
 ```
 
+Con directorio de salida personalizado (usado por el agente orquestador):
+
+```powershell
+python normalize_woocommerce_product_images.py "<carpeta_raiz>" --output-dir "<directorio_destino>"
+```
+
 Con eliminación de fondo desactivada (más rápido):
 
 ```powershell
 python normalize_woocommerce_product_images.py "<carpeta_raiz>" --no-rembg
 ```
+
+Combinando ambas opciones:
+
+```powershell
+python normalize_woocommerce_product_images.py "<carpeta_raiz>" --output-dir "<directorio_destino>" --no-rembg
+```
+
+> **`--output-dir`**: si se especifica, las imágenes normalizadas se guardan directamente en `<directorio_destino>/<producto>/` en lugar de `<carpeta_raiz>/COMPRESSED/<producto>/`. El directorio se crea automáticamente si no existe.
 
 ### Instalar dependencias
 
@@ -113,8 +127,8 @@ winget install Gyan.FFmpeg   # ffmpeg como fallback para leer AVIF
 
 ## Scripts heredados (uso legacy)
 
-- `compress_images.py` — compresión sin canvas uniforme (uso si solo se necesita bajar peso).
-- `enhance_images.py` — mejora AVIF/baja calidad sin canvas uniforme (uso puntual).
+- `compress_images_legacy.py` — compresión sin canvas uniforme (uso si solo se necesita bajar peso).
+- `enhance_images_legacy.py` — mejora AVIF/baja calidad sin canvas uniforme (uso puntual).
 
 Para WooCommerce, usar siempre `normalize_woocommerce_product_images.py`.
 
