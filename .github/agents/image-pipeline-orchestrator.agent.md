@@ -32,6 +32,13 @@ Hacer siempre estas dos preguntas antes de cualquier acción:
    - Ejemplo: ABOCA, TEZAROPHARMA, etc.
    - Este valor se usará en las rutas de salida.
 
+## Cadencia de comunicación
+
+- Evitar mensajes repetitivos de progreso durante la extracción o la normalización.
+- Informar solo en hitos claros: inicio, un resumen intermedio cada bloque grande y cierre.
+- Como norma práctica, no comentar cada archivo ni cada sublote pequeño; agrupar el avance en tandas.
+- Si el lote es grande, priorizar trabajar y resumir al terminar cada bloque.
+
 ---
 
 ## Ruta A — Imágenes ya disponibles
@@ -131,9 +138,20 @@ DESTINO = C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmaci
 
 Preguntar: *"¿Quieres activar la eliminación de fondo con IA (rembg)? Recomendado si los fondos no son blancos."*
 
+Para lotes grandes, procesar la normalización en tandas pequeñas usando `--offset` y `--max-images` para no superar límites de ejecución. Recomendación operativa: bloques de 100 a 250 imágenes, ajustando según el tamaño real de los archivos.
+
 ```powershell
 python "C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmacia\FARMACIA MURO\normalize_woocommerce_product_images.py" "<EXTRACCIÓN>" --output-dir "<DESTINO>"
 ```
+
+Ejemplo por tandas:
+
+```powershell
+python "C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmacia\FARMACIA MURO\scripts\normalize_woocommerce_product_images.py" "<EXTRACCIÓN>" --output-dir "<DESTINO>" --no-rembg --offset 0 --max-images 200
+python "C:\Users\javie\Escritorio\Javier\Experiencia_Laboral\Ecommerce_Farmacia\FARMACIA MURO\scripts\normalize_woocommerce_product_images.py" "<EXTRACCIÓN>" --output-dir "<DESTINO>" --no-rembg --offset 200 --max-images 200
+```
+
+Cuando un lote grande ya esté en marcha, evitar mensajes intermedios del tipo "sigo con otro lote"; solo reportar el avance cuando termine un bloque significativo o se detecte una incidencia.
 
 ### B7. Reportar resultado final
 
@@ -175,3 +193,4 @@ pip install rembg onnxruntime
 - Si el usuario tiene imágenes en formatos no estándar (AVIF, TIFF, WebP), verificar que `pillow` los soporte antes de continuar.
 - Para lotes grandes (>50 imágenes), informar al usuario que rembg puede tardar varios minutos.
 - Si se detectan imágenes con fondo ya blanco, sugerir `--no-rembg` para mayor velocidad.
+- Si la normalización se procesa con muchos archivos, dividir en bloques con `--offset` y `--max-images` para no agotar límites de ejecución ni saturar el canal de progreso.
