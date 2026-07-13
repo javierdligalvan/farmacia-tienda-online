@@ -256,6 +256,17 @@ def main():
         description='Normaliza imágenes de producto para WooCommerce (1200×1200, fondo blanco).'
     )
     parser.add_argument('folder', help='Carpeta raíz con subcarpetas de producto')
+    parser.add_argument(
+        '--offset',
+        type=int,
+        default=0,
+        help='Índice inicial de imagen a procesar dentro del lote completo (por defecto: 0)'
+    )
+    parser.add_argument(
+        '--max-images',
+        type=int,
+        help='Máximo de imágenes a procesar en esta ejecución'
+    )
     parser.add_argument('--no-rembg', action='store_true',
                         help='Desactiva rembg aunque esté instalado (más rápido, sin eliminación de fondo IA)')
     parser.add_argument(
@@ -300,10 +311,21 @@ def main():
         print('No se encontraron imágenes compatibles.')
         sys.exit(0)
 
+    total_tasks = len(tasks)
+    start_idx = max(0, args.offset)
+    if start_idx >= total_tasks:
+        print(f'No hay imágenes para procesar en el rango solicitado (offset={start_idx}, total={total_tasks}).')
+        sys.exit(0)
+
+    end_idx = total_tasks if args.max_images is None else min(total_tasks, start_idx + max(0, args.max_images))
+    tasks = tasks[start_idx:end_idx]
+
     rembg_status = 'ON' if remove_fn else ('desactivado' if not use_rembg else 'no instalado')
     print(f'\n═══ WooCommerce Image Processor ═══')
     print(f'Raíz:     {root}')
-    print(f'Imágenes: {len(tasks)}')
+    print(f'Imágenes: {len(tasks)} / {total_tasks}')
+    if len(tasks) != total_tasks:
+        print(f'Lote:     {start_idx + 1}-{end_idx} de {total_tasks}')
     print(f'Canvas:   {CANVAS_PX}×{CANVAS_PX} px  |  Producto: {PRODUCT_MAX_PX} px (80 %)  |  Márgenes: {(CANVAS_PX - PRODUCT_MAX_PX) // 2} px')
     print(f'rembg:    {rembg_status}')
     print()
